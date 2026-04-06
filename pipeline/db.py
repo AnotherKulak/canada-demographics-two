@@ -11,6 +11,7 @@ SCHEMA_PATH = Path(__file__).parent / "schema.sql"
 
 def get_conn() -> duckdb.DuckDBPyConnection:
     """Return a connection to the warehouse, initialising schema on first run."""
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = duckdb.connect(str(DB_PATH))
     _ensure_schema(conn)
     return conn
