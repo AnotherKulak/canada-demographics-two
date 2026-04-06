@@ -82,13 +82,18 @@ def _freshness(conn: duckdb.DuckDBPyConnection, *, dataset_keys: list[str], gene
     }
 
 
-def _latest_complete_year(conn: duckdb.DuckDBPyConnection, table: str) -> int:
+def _latest_complete_year(conn: duckdb.DuckDBPyConnection, table: str) -> int | None:
     row = conn.execute(f"""
         SELECT ref_year FROM {table}
         WHERE ref_year < YEAR(current_date)
         GROUP BY ref_year ORDER BY ref_year DESC LIMIT 1
     """).fetchone()
-    return int(row[0]) if row else int(conn.execute(f"SELECT MAX(ref_year) FROM {table}").fetchone()[0])
+    if row and row[0] is not None:
+        return int(row[0])
+    fallback = conn.execute(f"SELECT MAX(ref_year) FROM {table}").fetchone()
+    if not fallback or fallback[0] is None:
+        return None
+    return int(fallback[0])
 
 
 def _canonical_country(name: str) -> str:
@@ -361,6 +366,9 @@ def export_work_permit_sources_current(conn: duckdb.DuckDBPyConnection, *, gener
 
 def export_origin_pr_current(conn: duckdb.DuckDBPyConnection, *, generated_at: datetime | None = None, source_failures: dict[str, str] | None = None) -> None:
     max_year = _latest_complete_year(conn, "permanent_residents_monthly")
+    if max_year is None:
+        print("  SKIP origin_pr_current.json — no data")
+        return
     rows = conn.execute("""
         SELECT country, SUM(count) AS total
         FROM permanent_residents_monthly
@@ -407,9 +415,9 @@ def export_origin_temp_current(conn: duckdb.DuckDBPyConnection, *, generated_at:
     study_year = _latest_complete_year(conn, "study_permits_monthly")
     work_year = _latest_complete_year(conn, "work_permits_monthly")
     asylum_year = _latest_complete_year(conn, "asylum_claimants_monthly")
-    study_rows = _country_rows_for_year(conn, "study_permits_monthly", study_year)[:10]
-    work_rows = _country_rows_for_year(conn, "work_permits_monthly", work_year)[:10]
-    asylum_rows = _country_rows_for_year(conn, "asylum_claimants_monthly", asylum_year)[:10]
+    study_rows = _country_rows_for_year(conn, "study_permits_monthly", study_year)[:10] if study_year is not None else []
+    work_rows = _country_rows_for_year(conn, "work_permits_monthly", work_year)[:10] if work_year is not None else []
+    asylum_rows = _country_rows_for_year(conn, "asylum_claimants_monthly", asylum_year)[:10] if asylum_year is not None else []
     _write("origin_temp_current.json", {
         "study_permits": {
             "ref_year": study_year,
@@ -463,9 +471,11 @@ def export_origin_overview(conn: duckdb.DuckDBPyConnection, *, generated_at: dat
     study_year = _latest_complete_year(conn, "study_permits_monthly")
     work_year = _latest_complete_year(conn, "work_permits_monthly")
     asylum_year = _latest_complete_year(conn, "asylum_claimants_monthly")
-    pr_rows = _country_rows_for_year(conn, "permanent_residents_monthly", pr_year)
+    pr_rows = _country_rows_for_year(conn, "permanent_residents_monthly", pr_year) if pr_year is not None else []
     temp_mix: dict[str, int] = {}
     for table, year in [("study_permits_monthly", study_year), ("work_permits_monthly", work_year), ("asylum_claimants_monthly", asylum_year)]:
+        if year is None:
+            continue
         for country, count in _country_rows_for_year(conn, table, year):
             canonical = _canonical_country(country)
             temp_mix[canonical] = temp_mix.get(canonical, 0) + count
@@ -493,7 +503,7 @@ def export_origin_overview(conn: duckdb.DuckDBPyConnection, *, generated_at: dat
                 "total": foreign_total,
                 "top10": foreign_top10,
                 "non_top_10": foreign_other,
-                "source_period": f"Naturalized {naturalized_year}, PR {pr_year}, Temporary {max(study_year, work_year, asylum_year)}",
+                "source_period": f"Naturalized {naturalized_year}, PR {pr_year or 'n/a'}, Temporary {max(year for year in [study_year, work_year, asylum_year] if year is not None) if any(year is not None for year in [study_year, work_year, asylum_year]) else 'n/a'}",
                 "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
                 "is_estimated": True,
             },
@@ -513,7 +523,7 @@ def export_origin_overview(conn: duckdb.DuckDBPyConnection, *, generated_at: dat
                 "total": estimated_map.get("permanent_resident", 0),
                 "top10": pr_top10,
                 "non_top_10": pr_other,
-                "source_period": f"{pr_year} IRCC annual distribution scaled to current estimated stock",
+                "source_period": f"{pr_year or 'n/a'} IRCC annual distribution scaled to current estimated stock",
                 "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
                 "is_estimated": True,
             },
@@ -523,7 +533,7 @@ def export_origin_overview(conn: duckdb.DuckDBPyConnection, *, generated_at: dat
                 "total": estimated_map.get("non_permanent_resident", 0),
                 "top10": temp_top10,
                 "non_top_10": temp_other,
-                "source_period": f"Study {study_year}, work {work_year}, asylum {asylum_year}",
+                "source_period": f"Study {study_year or 'n/a'}, work {work_year or 'n/a'}, asylum {asylum_year or 'n/a'}",
                 "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
                 "is_estimated": True,
             },
