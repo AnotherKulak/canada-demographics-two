@@ -7,7 +7,7 @@
         "count": 99695
       },
       {
-        "country": "China, People's Republic of",
+        "country": "China",
         "count": 51885
       },
       {
@@ -31,11 +31,11 @@
         "count": 9615
       },
       {
-        "country": "Korea, Republic of",
+        "country": "South Korea",
         "count": 9310
       },
       {
-        "country": "United States of America",
+        "country": "United States",
         "count": 8825
       },
       {
@@ -49,84 +49,97 @@
     "top10": [
       {
         "country": "India",
-        "count": 187295
+        "count": 29125
       },
       {
-        "country": "Ukraine",
-        "count": 60425
+        "country": "Haiti",
+        "count": 22300
       },
       {
-        "country": "Iran",
-        "count": 32800
-      },
-      {
-        "country": "Philippines",
-        "count": 30530
-      },
-      {
-        "country": "China, People's Republic of",
-        "count": 23055
-      },
-      {
-        "country": "France",
-        "count": 21025
-      },
-      {
-        "country": "United States of America",
-        "count": 20370
+        "country": "Mexico",
+        "count": 14765
       },
       {
         "country": "Nigeria",
-        "count": 18465
+        "count": 10960
       },
       {
-        "country": "United Kingdom and Overseas Territories",
-        "count": 14410
+        "country": "Iran",
+        "count": 8445
       },
       {
-        "country": "Korea, Republic of",
-        "count": 11295
+        "country": "Bangladesh",
+        "count": 6170
+      },
+      {
+        "country": "China",
+        "count": 5810
+      },
+      {
+        "country": "Congo, Democratic Republic of the",
+        "count": 5050
+      },
+      {
+        "country": "Ghana",
+        "count": 4895
+      },
+      {
+        "country": "Pakistan",
+        "count": 4890
       }
     ]
   },
   "asylum_claimants": {
-    "ref_year": 2025,
-    "top10": [
-      {
-        "country": "Haiti",
-        "count": 17610
-      },
-      {
-        "country": "India",
-        "count": 17200
-      },
-      {
-        "country": "Iran",
-        "count": 6930
-      },
-      {
-        "country": "Nigeria",
-        "count": 6400
-      },
-      {
-        "country": "Mexico",
-        "count": 4840
-      },
-      {
-        "country": "China, People's Republic of",
-        "count": 4385
-      },
-      {
-        "country": "Pakistan",
-        "count": 3615
-      },
-      {
-        "country": "Bangladesh",
-        "count": 3610
-      }
-    ],
-    "note": "IRCC publishes top-25 source countries only"
+    "ref_year": null,
+    "top10": [],
+    "note": "IRCC publishes top-country asylum data and the site scales this into the temporary resident estimate when needed."
   },
   "source": "IRCC open.canada.ca",
-  "frequency": "Monthly"
+  "frequency": "Monthly",
+  "freshness": {
+    "generated_at": "2026-04-06T23:44:13.462712",
+    "latest_source_reference": "2015 to 2026",
+    "stale": true,
+    "failed_sources": [
+      {
+        "dataset_key": "asylum_claimants_monthly",
+        "error": "Missing asylum claimant XLSX resources"
+      }
+    ],
+    "sources": [
+      {
+        "dataset_key": "asylum_claimants_monthly",
+        "source_family": "ircc",
+        "source_id": "IRCC-b6cbcf4d",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-04-06 23:44:13.459000",
+        "notes": "Missing asylum claimant XLSX resources"
+      },
+      {
+        "dataset_key": "study_permits_monthly",
+        "source_family": "ircc",
+        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
+        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:10.981000",
+        "notes": null
+      },
+      {
+        "dataset_key": "work_permits_monthly",
+        "source_family": "ircc",
+        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
+        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:12.543000",
+        "notes": null
+      }
+    ]
+  }
 }

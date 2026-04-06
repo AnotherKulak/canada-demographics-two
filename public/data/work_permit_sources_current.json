@@ -5,12 +5,29 @@
   "streams": [],
   "source": "IRCC work permit holders by program",
   "frequency": "Monthly aggregated to annual",
-  "note": "Program-level work permit data will populate here automatically after the pipeline finds and ingests the matching IRCC resource.",
+  "note": "This component refreshes automatically when an IRCC program-level work permit resource is available.",
   "freshness": {
-    "generated_at": "2026-04-06T00:00:00",
+    "generated_at": "2026-04-06T23:44:13.462712",
     "latest_source_reference": null,
-    "stale": false,
-    "failed_sources": [],
-    "sources": []
+    "stale": true,
+    "failed_sources": [
+      {
+        "dataset_key": "work_permit_programs_monthly",
+        "error": "Work permit program resource does not expose a recognizable program column"
+      }
+    ],
+    "sources": [
+      {
+        "dataset_key": "work_permit_programs_monthly",
+        "source_family": "ircc",
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-04-06 23:44:12.544000",
+        "notes": "Work permit program resource does not expose a recognizable program column"
+      }
+    ]
   }
 }

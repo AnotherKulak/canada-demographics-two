@@ -2,12 +2,8 @@
   "latest_census_year": 2021,
   "top10": [
     {
-      "country": "Southeast Asia",
-      "count": 721310
-    },
-    {
-      "country": "West Central Asia and the Middle East",
-      "count": 531270
+      "country": "Asia",
+      "count": 2950515
     },
     {
       "country": "India",
@@ -26,10 +22,6 @@
       "count": 380870
     },
     {
-      "country": "Caribbean and Bermuda",
-      "count": 321235
-    },
-    {
       "country": "Hong Kong",
       "count": 204280
     },
@@ -40,18 +32,21 @@
     {
       "country": "Pakistan",
       "count": 185155
+    },
+    {
+      "country": "Vietnam",
+      "count": 159310
+    },
+    {
+      "country": "United States",
+      "count": 151445
     }
   ],
   "all_census_data": [
     {
       "year": 2021,
-      "country": "Southeast Asia",
-      "count": 721310
-    },
-    {
-      "year": 2021,
-      "country": "West Central Asia and the Middle East",
-      "count": 531270
+      "country": "Asia",
+      "count": 2950515
     },
     {
       "year": 2021,
@@ -75,11 +70,6 @@
     },
     {
       "year": 2021,
-      "country": "Caribbean and Bermuda",
-      "count": 321235
-    },
-    {
-      "year": 2021,
       "country": "Hong Kong",
       "count": 204280
     },
@@ -95,17 +85,12 @@
     },
     {
       "year": 2021,
-      "country": "Viet Nam",
+      "country": "Vietnam",
       "count": 159310
     },
     {
       "year": 2021,
-      "country": "North America",
-      "count": 151790
-    },
-    {
-      "year": 2021,
-      "country": "United States of America",
+      "country": "United States",
       "count": 151445
     },
     {
@@ -140,7 +125,7 @@
     },
     {
       "year": 2021,
-      "country": "Korea, South",
+      "country": "South Korea",
       "count": 94345
     },
     {
@@ -240,11 +225,6 @@
     },
     {
       "year": 2021,
-      "country": "Central Africa",
-      "count": 44115
-    },
-    {
-      "year": 2021,
       "country": "El Salvador",
       "count": 41195
     },
@@ -252,11 +232,6 @@
       "year": 2021,
       "country": "Syria",
       "count": 40460
-    },
-    {
-      "year": 2021,
-      "country": "South Africa, Republic of",
-      "count": 40385
     },
     {
       "year": 2021,
@@ -815,22 +790,17 @@
     },
     {
       "year": 2021,
-      "country": "Inside Canada",
-      "count": 1785
-    },
-    {
-      "year": 2021,
       "country": "Belize",
       "count": 1775
     },
     {
       "year": 2021,
-      "country": "Mali",
+      "country": "Burkina Faso",
       "count": 1775
     },
     {
       "year": 2021,
-      "country": "Burkina Faso",
+      "country": "Mali",
       "count": 1775
     },
     {
@@ -842,11 +812,6 @@
       "year": 2021,
       "country": "Montenegro",
       "count": 1395
-    },
-    {
-      "year": 2021,
-      "country": "Bermuda",
-      "count": 1355
     },
     {
       "year": 2021,
@@ -905,22 +870,12 @@
     },
     {
       "year": 2021,
-      "country": "Ontario",
-      "count": 640
-    },
-    {
-      "year": 2021,
       "country": "Korea, North",
       "count": 630
     },
     {
       "year": 2021,
       "country": "Botswana",
-      "count": 600
-    },
-    {
-      "year": 2021,
-      "country": "Central African Republic",
       "count": 600
     },
     {
@@ -950,12 +905,12 @@
     },
     {
       "year": 2021,
-      "country": "Martinique",
+      "country": "Aruba",
       "count": 415
     },
     {
       "year": 2021,
-      "country": "Aruba",
+      "country": "Martinique",
       "count": 415
     },
     {
@@ -967,11 +922,6 @@
       "year": 2021,
       "country": "Luxembourg",
       "count": 350
-    },
-    {
-      "year": 2021,
-      "country": "Quebec",
-      "count": 345
     },
     {
       "year": 2021,
@@ -1020,21 +970,6 @@
     },
     {
       "year": 2021,
-      "country": "British Columbia",
-      "count": 175
-    },
-    {
-      "year": 2021,
-      "country": "New Brunswick",
-      "count": 170
-    },
-    {
-      "year": 2021,
-      "country": "French Polynesia",
-      "count": 170
-    },
-    {
-      "year": 2021,
       "country": "Comoros",
       "count": 165
     },
@@ -1047,11 +982,6 @@
       "year": 2021,
       "country": "French Guiana",
       "count": 140
-    },
-    {
-      "year": 2021,
-      "country": "Alberta",
-      "count": 135
     },
     {
       "year": 2021,
@@ -1075,28 +1005,8 @@
     },
     {
       "year": 2021,
-      "country": "Nova Scotia",
-      "count": 95
-    },
-    {
-      "year": 2021,
-      "country": "Manitoba",
-      "count": 85
-    },
-    {
-      "year": 2021,
       "country": "Tonga",
       "count": 80
-    },
-    {
-      "year": 2021,
-      "country": "Saskatchewan",
-      "count": 75
-    },
-    {
-      "year": 2021,
-      "country": "Guinea-Bissau",
-      "count": 75
     },
     {
       "year": 2021,
@@ -1105,8 +1015,8 @@
     },
     {
       "year": 2021,
-      "country": "Monaco",
-      "count": 70
+      "country": "Guinea-Bissau",
+      "count": 75
     },
     {
       "year": 2021,
@@ -1120,18 +1030,13 @@
     },
     {
       "year": 2021,
+      "country": "Monaco",
+      "count": 70
+    },
+    {
+      "year": 2021,
       "country": "Northern Mariana Islands",
       "count": 65
-    },
-    {
-      "year": 2021,
-      "country": "Other",
-      "count": 65
-    },
-    {
-      "year": 2021,
-      "country": "Newfoundland and Labrador",
-      "count": 55
     },
     {
       "year": 2021,
@@ -1140,22 +1045,22 @@
     },
     {
       "year": 2021,
-      "country": "Turks and Caicos Islands",
-      "count": 40
-    },
-    {
-      "year": 2021,
       "country": "Saint Martin (French part)",
       "count": 40
     },
     {
       "year": 2021,
-      "country": "Nauru",
-      "count": 35
+      "country": "Turks and Caicos Islands",
+      "count": 40
     },
     {
       "year": 2021,
       "country": "Equatorial Guinea",
+      "count": 35
+    },
+    {
+      "year": 2021,
+      "country": "Nauru",
       "count": 35
     },
     {
@@ -1175,7 +1080,7 @@
     },
     {
       "year": 2021,
-      "country": "Vanuatu",
+      "country": "Faroe Islands",
       "count": 20
     },
     {
@@ -1185,27 +1090,12 @@
     },
     {
       "year": 2021,
-      "country": "Faroe Islands",
+      "country": "Vanuatu",
       "count": 20
     },
     {
       "year": 2021,
-      "country": "Prince Edward Island",
-      "count": 15
-    },
-    {
-      "year": 2021,
       "country": "Bonaire, Sint Eustatius and Saba",
-      "count": 15
-    },
-    {
-      "year": 2021,
-      "country": "Liechtenstein",
-      "count": 15
-    },
-    {
-      "year": 2021,
-      "country": "Timor-Leste",
       "count": 15
     },
     {
@@ -1215,12 +1105,22 @@
     },
     {
       "year": 2021,
-      "country": "Sao Tome and Principe",
+      "country": "Liechtenstein",
       "count": 15
     },
     {
       "year": 2021,
       "country": "Saint Helena, Ascension and Tristan da Cunha",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Sao Tome and Principe",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Timor-Leste",
       "count": 15
     },
     {
@@ -1235,15 +1135,29 @@
     },
     {
       "year": 2021,
-      "country": "Micronesia, Federated States of",
-      "count": 10
-    },
-    {
-      "year": 2021,
       "country": "Solomon Islands",
       "count": 10
     }
   ],
-  "source": "Statistics Canada 98-10-0304-01",
-  "frequency": "Census (every 5 years)"
+  "source": "Statistics Canada 98-10-0302-01",
+  "frequency": "Census (every 5 years)",
+  "freshness": {
+    "generated_at": "2026-04-06T23:44:13.462712",
+    "latest_source_reference": "2021 to 2021",
+    "stale": false,
+    "failed_sources": [],
+    "sources": [
+      {
+        "dataset_key": "naturalized_by_country_census",
+        "source_family": "statcan",
+        "source_id": "98-10-0302-01",
+        "resource_id": null,
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:09.523000",
+        "notes": null
+      }
+    ]
+  }
 }

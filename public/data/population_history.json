@@ -422,5 +422,24 @@
     }
   ],
   "source": "Statistics Canada 17-10-0009-01",
-  "frequency": "Quarterly"
+  "frequency": "Quarterly",
+  "freshness": {
+    "generated_at": "2026-04-06T23:44:13.462712",
+    "latest_source_reference": "1946-01-01 to 2026-01-01",
+    "stale": false,
+    "failed_sources": [],
+    "sources": [
+      {
+        "dataset_key": "population_quarterly",
+        "source_family": "statcan",
+        "source_id": "17-10-0009-01",
+        "resource_id": null,
+        "reference_period": "1946-01-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:37:24.913000",
+        "notes": null
+      }
+    ]
+  }
 }

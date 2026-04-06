@@ -3,20 +3,50 @@
     {
       "category": "foreign_born_total",
       "label": "Foreign-born Total",
-      "total": 11839059,
+      "total": 9794731,
       "top10": [
-        { "country": "India", "count": 3016237 },
-        { "country": "China", "count": 1248574 },
-        { "country": "Philippines", "count": 1237002 },
-        { "country": "Southeast Asia", "count": 1220895 },
-        { "country": "West Central Asia and the Middle East", "count": 899232 },
-        { "country": "United Kingdom", "count": 644664 },
-        { "country": "Caribbean and Bermuda", "count": 543725 },
-        { "country": "Pakistan", "count": 407246 },
-        { "country": "Nigeria", "count": 362221 },
-        { "country": "Hong Kong", "count": 345766 }
+        {
+          "country": "Non-top-10 Naturalized",
+          "count": 2673846
+        },
+        {
+          "country": "Asia",
+          "count": 2341122
+        },
+        {
+          "country": "Cameroon",
+          "count": 1089031
+        },
+        {
+          "country": "India",
+          "count": 411914
+        },
+        {
+          "country": "Philippines",
+          "count": 367726
+        },
+        {
+          "country": "China",
+          "count": 347132
+        },
+        {
+          "country": "Non-top-10 Permanent Residents",
+          "count": 322610
+        },
+        {
+          "country": "United Kingdom",
+          "count": 302206
+        },
+        {
+          "country": "Algeria",
+          "count": 246057
+        },
+        {
+          "country": "Morocco",
+          "count": 237400
+        }
       ],
-      "non_top_10": 1913497,
+      "non_top_10": 1455687,
       "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
@@ -24,20 +54,50 @@
     {
       "category": "naturalized",
       "label": "Naturalized Citizens",
-      "total": 6685650,
+      "total": 7146881,
       "top10": [
-        { "country": "Southeast Asia", "count": 1220895 },
-        { "country": "West Central Asia and the Middle East", "count": 899232 },
-        { "country": "India", "count": 878692 },
-        { "country": "Philippines", "count": 784431 },
-        { "country": "China", "count": 740499 },
-        { "country": "United Kingdom", "count": 644664 },
-        { "country": "Caribbean and Bermuda", "count": 543725 },
-        { "country": "Hong Kong", "count": 345766 },
-        { "country": "Italy", "count": 314351 },
-        { "country": "Pakistan", "count": 313395 }
+        {
+          "country": "Asia",
+          "count": 2341122
+        },
+        {
+          "country": "India",
+          "count": 411914
+        },
+        {
+          "country": "Philippines",
+          "count": 367726
+        },
+        {
+          "country": "China",
+          "count": 347132
+        },
+        {
+          "country": "United Kingdom",
+          "count": 302206
+        },
+        {
+          "country": "Hong Kong",
+          "count": 162088
+        },
+        {
+          "country": "Italy",
+          "count": 147362
+        },
+        {
+          "country": "Pakistan",
+          "count": 146913
+        },
+        {
+          "country": "Vietnam",
+          "count": 126406
+        },
+        {
+          "country": "United States",
+          "count": 120166
+        }
       ],
-      "non_top_10": 0,
+      "non_top_10": 2673846,
       "source_period": "2021 census distribution scaled to current estimated stock",
       "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
       "is_estimated": true
@@ -45,20 +105,50 @@
     {
       "category": "permanent_resident",
       "label": "Permanent Residents",
-      "total": 2476968,
+      "total": 2647850,
       "top10": [
-        { "country": "India", "count": 1045046 },
-        { "country": "Philippines", "count": 266800 },
-        { "country": "Cameroon", "count": 242531 },
-        { "country": "China", "count": 223179 },
-        { "country": "Nigeria", "count": 173002 },
-        { "country": "Eritrea", "count": 130598 },
-        { "country": "France", "count": 126632 },
-        { "country": "Pakistan", "count": 93851 },
-        { "country": "Ukraine", "count": 88458 },
-        { "country": "Afghanistan", "count": 86871 }
+        {
+          "country": "Cameroon",
+          "count": 1089031
+        },
+        {
+          "country": "Algeria",
+          "count": 246057
+        },
+        {
+          "country": "Morocco",
+          "count": 237400
+        },
+        {
+          "country": "France",
+          "count": 177708
+        },
+        {
+          "country": "Ivory Coast, Republic of",
+          "count": 158114
+        },
+        {
+          "country": "Haiti",
+          "count": 152191
+        },
+        {
+          "country": "Congo, Democratic Republic of the",
+          "count": 104802
+        },
+        {
+          "country": "Tunisia",
+          "count": 75184
+        },
+        {
+          "country": "Burundi",
+          "count": 48300
+        },
+        {
+          "country": "Mauritius",
+          "count": 36453
+        }
       ],
-      "non_top_10": 0,
+      "non_top_10": 322610,
       "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
       "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
       "is_estimated": true
@@ -66,21 +156,10 @@
     {
       "category": "temporary_resident",
       "label": "Temporary Residents",
-      "total": 2676441,
-      "top10": [
-        { "country": "India", "count": 1092499 },
-        { "country": "China", "count": 284896 },
-        { "country": "Ukraine", "count": 217016 },
-        { "country": "Nigeria", "count": 189219 },
-        { "country": "Philippines", "count": 185771 },
-        { "country": "Iran", "count": 177222 },
-        { "country": "France", "count": 125235 },
-        { "country": "United States", "count": 104854 },
-        { "country": "South Korea", "count": 74003 },
-        { "country": "Haiti", "count": 63246 }
-      ],
-      "non_top_10": 162480,
-      "source_period": "Study 2025, work 2025, asylum 2025",
+      "total": 0,
+      "top10": [],
+      "non_top_10": 0,
+      "source_period": "Study 2025, work 2025, asylum n/a",
       "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
       "is_estimated": true
     }
@@ -90,10 +169,108 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-04-06T00:00:00",
-    "latest_source_reference": "Naturalized 2021, PR 2025, Temporary 2025",
-    "stale": false,
-    "failed_sources": [],
-    "sources": []
+    "generated_at": "2026-04-06T23:44:13.462712",
+    "latest_source_reference": "2015 to 2026",
+    "stale": true,
+    "failed_sources": [
+      {
+        "dataset_key": "asylum_claimants_monthly",
+        "error": "Missing asylum claimant XLSX resources"
+      },
+      {
+        "dataset_key": "npr_by_type_quarterly",
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
+      }
+    ],
+    "sources": [
+      {
+        "dataset_key": "asylum_claimants_monthly",
+        "source_family": "ircc",
+        "source_id": "IRCC-b6cbcf4d",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-04-06 23:44:13.459000",
+        "notes": "Missing asylum claimant XLSX resources"
+      },
+      {
+        "dataset_key": "naturalized_by_country_census",
+        "source_family": "statcan",
+        "source_id": "98-10-0302-01",
+        "resource_id": null,
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:09.523000",
+        "notes": null
+      },
+      {
+        "dataset_key": "npr_by_type_quarterly",
+        "source_family": "statcan",
+        "source_id": "17-10-0121-01",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-04-06 23:42:25.240000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
+      },
+      {
+        "dataset_key": "permanent_residents_monthly",
+        "source_family": "ircc",
+        "source_id": "f7e5498e-0ad8-4417-85c9-9b8aff9b9eda",
+        "resource_id": "d0640e61-9bd2-4b8c-949f-a4ba50fbebe4",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:13.200000",
+        "notes": null
+      },
+      {
+        "dataset_key": "population_quarterly",
+        "source_family": "statcan",
+        "source_id": "17-10-0009-01",
+        "resource_id": null,
+        "reference_period": "1946-01-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:37:24.913000",
+        "notes": null
+      },
+      {
+        "dataset_key": "status_breakdown_census",
+        "source_family": "statcan",
+        "source_id": "98-10-0302-01",
+        "resource_id": null,
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:43:50.600000",
+        "notes": null
+      },
+      {
+        "dataset_key": "study_permits_monthly",
+        "source_family": "ircc",
+        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
+        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:10.981000",
+        "notes": null
+      },
+      {
+        "dataset_key": "work_permits_monthly",
+        "source_family": "ircc",
+        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
+        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-04-06 23:44:12.543000",
+        "notes": null
+      }
+    ]
   }
 }
