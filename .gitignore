@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite
+.vite/
+
+# Pipeline
+pipeline/warehouse/*.duckdb
+pipeline/warehouse/raw_cache/
+pipeline/__pycache__/
+pipeline/sources/__pycache__/
+pipeline/.venv/
+*.pyc
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

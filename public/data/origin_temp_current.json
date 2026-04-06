@@ -1,0 +1,132 @@
+{
+  "study_permits": {
+    "ref_year": 2025,
+    "top10": [
+      {
+        "country": "India",
+        "count": 99695
+      },
+      {
+        "country": "China, People's Republic of",
+        "count": 51885
+      },
+      {
+        "country": "Nigeria",
+        "count": 27820
+      },
+      {
+        "country": "Philippines",
+        "count": 21195
+      },
+      {
+        "country": "France",
+        "count": 13845
+      },
+      {
+        "country": "Vietnam",
+        "count": 10410
+      },
+      {
+        "country": "Iran",
+        "count": 9615
+      },
+      {
+        "country": "Korea, Republic of",
+        "count": 9310
+      },
+      {
+        "country": "United States of America",
+        "count": 8825
+      },
+      {
+        "country": "Mexico",
+        "count": 8355
+      }
+    ]
+  },
+  "work_permits": {
+    "ref_year": 2025,
+    "top10": [
+      {
+        "country": "India",
+        "count": 187295
+      },
+      {
+        "country": "Ukraine",
+        "count": 60425
+      },
+      {
+        "country": "Iran",
+        "count": 32800
+      },
+      {
+        "country": "Philippines",
+        "count": 30530
+      },
+      {
+        "country": "China, People's Republic of",
+        "count": 23055
+      },
+      {
+        "country": "France",
+        "count": 21025
+      },
+      {
+        "country": "United States of America",
+        "count": 20370
+      },
+      {
+        "country": "Nigeria",
+        "count": 18465
+      },
+      {
+        "country": "United Kingdom and Overseas Territories",
+        "count": 14410
+      },
+      {
+        "country": "Korea, Republic of",
+        "count": 11295
+      }
+    ]
+  },
+  "asylum_claimants": {
+    "ref_year": 2025,
+    "top10": [
+      {
+        "country": "Haiti",
+        "count": 17610
+      },
+      {
+        "country": "India",
+        "count": 17200
+      },
+      {
+        "country": "Iran",
+        "count": 6930
+      },
+      {
+        "country": "Nigeria",
+        "count": 6400
+      },
+      {
+        "country": "Mexico",
+        "count": 4840
+      },
+      {
+        "country": "China, People's Republic of",
+        "count": 4385
+      },
+      {
+        "country": "Pakistan",
+        "count": 3615
+      },
+      {
+        "country": "Bangladesh",
+        "count": 3610
+      }
+    ],
+    "note": "IRCC publishes top-25 source countries only"
+  },
+  "source": "IRCC open.canada.ca",
+  "frequency": "Monthly"
+}

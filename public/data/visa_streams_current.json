@@ -1,0 +1,48 @@
+{
+  "ref_date": "2026-01-01",
+  "total_npr": 2676441,
+  "streams": [
+    {
+      "stream": "permit_work_only",
+      "count": 1375566,
+      "pct": 51.4
+    },
+    {
+      "stream": "permit_study_only",
+      "count": 431537,
+      "pct": 16.1
+    },
+    {
+      "stream": "asylum_work_permit_only",
+      "count": 354518,
+      "pct": 13.2
+    },
+    {
+      "stream": "permit_work_and_study",
+      "count": 223265,
+      "pct": 8.3
+    },
+    {
+      "stream": "asylum_no_permit",
+      "count": 138080,
+      "pct": 5.2
+    },
+    {
+      "stream": "permit_other",
+      "count": 127584,
+      "pct": 4.8
+    },
+    {
+      "stream": "asylum_work_and_study",
+      "count": 23523,
+      "pct": 0.9
+    },
+    {
+      "stream": "asylum_study_permit_only",
+      "count": 2368,
+      "pct": 0.1
+    }
+  ],
+  "source": "Statistics Canada 17-10-0121-01",
+  "frequency": "Quarterly"
+}

@@ -1,0 +1,607 @@
+{
+  "data": [
+    {
+      "year": 2015,
+      "country": "Philippines",
+      "count": 50845
+    },
+    {
+      "year": 2015,
+      "country": "India",
+      "count": 39335
+    },
+    {
+      "year": 2015,
+      "country": "China, People's Republic of",
+      "count": 19455
+    },
+    {
+      "year": 2015,
+      "country": "Iran",
+      "count": 11630
+    },
+    {
+      "year": 2015,
+      "country": "Pakistan",
+      "count": 11300
+    },
+    {
+      "year": 2015,
+      "country": "Syria",
+      "count": 9850
+    },
+    {
+      "year": 2015,
+      "country": "United States of America",
+      "count": 7655
+    },
+    {
+      "year": 2015,
+      "country": "France",
+      "count": 5840
+    },
+    {
+      "year": 2015,
+      "country": "Nigeria",
+      "count": 4095
+    },
+    {
+      "year": 2015,
+      "country": "Afghanistan",
+      "count": 2625
+    },
+    {
+      "year": 2016,
+      "country": "Philippines",
+      "count": 41850
+    },
+    {
+      "year": 2016,
+      "country": "India",
+      "count": 39705
+    },
+    {
+      "year": 2016,
+      "country": "Syria",
+      "count": 35005
+    },
+    {
+      "year": 2016,
+      "country": "China, People's Republic of",
+      "count": 26785
+    },
+    {
+      "year": 2016,
+      "country": "Pakistan",
+      "count": 11350
+    },
+    {
+      "year": 2016,
+      "country": "United States of America",
+      "count": 8480
+    },
+    {
+      "year": 2016,
+      "country": "Iran",
+      "count": 6465
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "count": 6390
+    },
+    {
+      "year": 2016,
+      "country": "Nigeria",
+      "count": 4415
+    },
+    {
+      "year": 2016,
+      "country": "Afghanistan",
+      "count": 2655
+    },
+    {
+      "year": 2017,
+      "country": "India",
+      "count": 51585
+    },
+    {
+      "year": 2017,
+      "country": "Philippines",
+      "count": 40900
+    },
+    {
+      "year": 2017,
+      "country": "China, People's Republic of",
+      "count": 30255
+    },
+    {
+      "year": 2017,
+      "country": "Syria",
+      "count": 12060
+    },
+    {
+      "year": 2017,
+      "country": "United States of America",
+      "count": 9140
+    },
+    {
+      "year": 2017,
+      "country": "Pakistan",
+      "count": 7655
+    },
+    {
+      "year": 2017,
+      "country": "France",
+      "count": 6620
+    },
+    {
+      "year": 2017,
+      "country": "Nigeria",
+      "count": 5445
+    },
+    {
+      "year": 2017,
+      "country": "Iran",
+      "count": 4735
+    },
+    {
+      "year": 2017,
+      "country": "Afghanistan",
+      "count": 3460
+    },
+    {
+      "year": 2018,
+      "country": "India",
+      "count": 69985
+    },
+    {
+      "year": 2018,
+      "country": "Philippines",
+      "count": 35045
+    },
+    {
+      "year": 2018,
+      "country": "China, People's Republic of",
+      "count": 29710
+    },
+    {
+      "year": 2018,
+      "country": "Syria",
+      "count": 12045
+    },
+    {
+      "year": 2018,
+      "country": "Nigeria",
+      "count": 10915
+    },
+    {
+      "year": 2018,
+      "country": "United States of America",
+      "count": 10895
+    },
+    {
+      "year": 2018,
+      "country": "Pakistan",
+      "count": 9485
+    },
+    {
+      "year": 2018,
+      "country": "France",
+      "count": 6175
+    },
+    {
+      "year": 2018,
+      "country": "Iran",
+      "count": 5505
+    },
+    {
+      "year": 2018,
+      "country": "Afghanistan",
+      "count": 3560
+    },
+    {
+      "year": 2019,
+      "country": "India",
+      "count": 85595
+    },
+    {
+      "year": 2019,
+      "country": "China, People's Republic of",
+      "count": 30245
+    },
+    {
+      "year": 2019,
+      "country": "Philippines",
+      "count": 27810
+    },
+    {
+      "year": 2019,
+      "country": "Nigeria",
+      "count": 12595
+    },
+    {
+      "year": 2019,
+      "country": "Pakistan",
+      "count": 10800
+    },
+    {
+      "year": 2019,
+      "country": "United States of America",
+      "count": 10785
+    },
+    {
+      "year": 2019,
+      "country": "Syria",
+      "count": 10120
+    },
+    {
+      "year": 2019,
+      "country": "Iran",
+      "count": 6055
+    },
+    {
+      "year": 2019,
+      "country": "France",
+      "count": 4960
+    },
+    {
+      "year": 2019,
+      "country": "Afghanistan",
+      "count": 3890
+    },
+    {
+      "year": 2020,
+      "country": "India",
+      "count": 42880
+    },
+    {
+      "year": 2020,
+      "country": "China, People's Republic of",
+      "count": 16515
+    },
+    {
+      "year": 2020,
+      "country": "Philippines",
+      "count": 10970
+    },
+    {
+      "year": 2020,
+      "country": "United States of America",
+      "count": 6380
+    },
+    {
+      "year": 2020,
+      "country": "Nigeria",
+      "count": 6360
+    },
+    {
+      "year": 2020,
+      "country": "Pakistan",
+      "count": 6225
+    },
+    {
+      "year": 2020,
+      "country": "Syria",
+      "count": 4885
+    },
+    {
+      "year": 2020,
+      "country": "France",
+      "count": 4600
+    },
+    {
+      "year": 2020,
+      "country": "Iran",
+      "count": 3815
+    },
+    {
+      "year": 2020,
+      "country": "Afghanistan",
+      "count": 1655
+    },
+    {
+      "year": 2021,
+      "country": "India",
+      "count": 127945
+    },
+    {
+      "year": 2021,
+      "country": "China, People's Republic of",
+      "count": 31025
+    },
+    {
+      "year": 2021,
+      "country": "Philippines",
+      "count": 18020
+    },
+    {
+      "year": 2021,
+      "country": "Nigeria",
+      "count": 15590
+    },
+    {
+      "year": 2021,
+      "country": "France",
+      "count": 12690
+    },
+    {
+      "year": 2021,
+      "country": "United States of America",
+      "count": 11950
+    },
+    {
+      "year": 2021,
+      "country": "Iran",
+      "count": 11310
+    },
+    {
+      "year": 2021,
+      "country": "Afghanistan",
+      "count": 8565
+    },
+    {
+      "year": 2021,
+      "country": "Pakistan",
+      "count": 8475
+    },
+    {
+      "year": 2021,
+      "country": "Syria",
+      "count": 5595
+    },
+    {
+      "year": 2022,
+      "country": "India",
+      "count": 118250
+    },
+    {
+      "year": 2022,
+      "country": "China, People's Republic of",
+      "count": 31870
+    },
+    {
+      "year": 2022,
+      "country": "Afghanistan",
+      "count": 23745
+    },
+    {
+      "year": 2022,
+      "country": "Nigeria",
+      "count": 22135
+    },
+    {
+      "year": 2022,
+      "country": "Philippines",
+      "count": 22100
+    },
+    {
+      "year": 2022,
+      "country": "France",
+      "count": 14150
+    },
+    {
+      "year": 2022,
+      "country": "Pakistan",
+      "count": 11600
+    },
+    {
+      "year": 2022,
+      "country": "Iran",
+      "count": 11110
+    },
+    {
+      "year": 2022,
+      "country": "United States of America",
+      "count": 10415
+    },
+    {
+      "year": 2022,
+      "country": "Syria",
+      "count": 8505
+    },
+    {
+      "year": 2023,
+      "country": "India",
+      "count": 139780
+    },
+    {
+      "year": 2023,
+      "country": "China, People's Republic of",
+      "count": 31785
+    },
+    {
+      "year": 2023,
+      "country": "Philippines",
+      "count": 26965
+    },
+    {
+      "year": 2023,
+      "country": "Afghanistan",
+      "count": 20180
+    },
+    {
+      "year": 2023,
+      "country": "Nigeria",
+      "count": 17465
+    },
+    {
+      "year": 2023,
+      "country": "Pakistan",
+      "count": 11855
+    },
+    {
+      "year": 2023,
+      "country": "Iran",
+      "count": 10690
+    },
+    {
+      "year": 2023,
+      "country": "United States of America",
+      "count": 10640
+    },
+    {
+      "year": 2023,
+      "country": "France",
+      "count": 10075
+    },
+    {
+      "year": 2023,
+      "country": "Syria",
+      "count": 9350
+    },
+    {
+      "year": 2024,
+      "country": "India",
+      "count": 127380
+    },
+    {
+      "year": 2024,
+      "country": "Philippines",
+      "count": 32320
+    },
+    {
+      "year": 2024,
+      "country": "China, People's Republic of",
+      "count": 29965
+    },
+    {
+      "year": 2024,
+      "country": "Nigeria",
+      "count": 20395
+    },
+    {
+      "year": 2024,
+      "country": "Afghanistan",
+      "count": 12285
+    },
+    {
+      "year": 2024,
+      "country": "Pakistan",
+      "count": 11970
+    },
+    {
+      "year": 2024,
+      "country": "Iran",
+      "count": 11145
+    },
+    {
+      "year": 2024,
+      "country": "France",
+      "count": 9940
+    },
+    {
+      "year": 2024,
+      "country": "United States of America",
+      "count": 9325
+    },
+    {
+      "year": 2024,
+      "country": "Syria",
+      "count": 7745
+    },
+    {
+      "year": 2025,
+      "country": "India",
+      "count": 98825
+    },
+    {
+      "year": 2025,
+      "country": "Philippines",
+      "count": 25230
+    },
+    {
+      "year": 2025,
+      "country": "China, People's Republic of",
+      "count": 21105
+    },
+    {
+      "year": 2025,
+      "country": "Nigeria",
+      "count": 16360
+    },
+    {
+      "year": 2025,
+      "country": "France",
+      "count": 11975
+    },
+    {
+      "year": 2025,
+      "country": "Pakistan",
+      "count": 8875
+    },
+    {
+      "year": 2025,
+      "country": "Afghanistan",
+      "count": 8215
+    },
+    {
+      "year": 2025,
+      "country": "United States of America",
+      "count": 7510
+    },
+    {
+      "year": 2025,
+      "country": "Iran",
+      "count": 7435
+    },
+    {
+      "year": 2025,
+      "country": "Syria",
+      "count": 4320
+    },
+    {
+      "year": 2026,
+      "country": "India",
+      "count": 6430
+    },
+    {
+      "year": 2026,
+      "country": "Philippines",
+      "count": 1670
+    },
+    {
+      "year": 2026,
+      "country": "China, People's Republic of",
+      "count": 1395
+    },
+    {
+      "year": 2026,
+      "country": "Nigeria",
+      "count": 1260
+    },
+    {
+      "year": 2026,
+      "country": "France",
+      "count": 600
+    },
+    {
+      "year": 2026,
+      "country": "Iran",
+      "count": 550
+    },
+    {
+      "year": 2026,
+      "country": "United States of America",
+      "count": 525
+    },
+    {
+      "year": 2026,
+      "country": "Pakistan",
+      "count": 480
+    },
+    {
+      "year": 2026,
+      "country": "Afghanistan",
+      "count": 230
+    },
+    {
+      "year": 2026,
+      "country": "Syria",
+      "count": 210
+    }
+  ],
+  "note": "Top 10 countries by all-time cumulative admissions",
+  "source": "IRCC Permanent Residents \u2014 open.canada.ca",
+  "frequency": "Annual aggregation of monthly data"
+}

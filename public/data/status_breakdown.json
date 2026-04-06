@@ -1,0 +1,110 @@
+{
+  "actual_latest": {
+    "rows": [
+      {
+        "status": "canadian_born",
+        "label": "Canadian-born Citizens",
+        "count": 27042125,
+        "ref_date": "2021-01-01",
+        "source": "Statistics Canada 98-10-0302-01"
+      },
+      {
+        "status": "naturalized",
+        "label": "Naturalized Citizens",
+        "count": 6101105,
+        "ref_date": "2021-01-01",
+        "source": "Statistics Canada 98-10-0302-01"
+      },
+      {
+        "status": "permanent_resident",
+        "label": "Permanent Residents",
+        "count": 2260400,
+        "ref_date": "2021-01-01",
+        "source": "Statistics Canada 98-10-0302-01"
+      },
+      {
+        "status": "non_permanent_resident",
+        "label": "Temporary Residents",
+        "count": 2676441,
+        "ref_date": "2026-01-01",
+        "source": "Statistics Canada 17-10-0121-01"
+      }
+    ],
+    "total": 38080126
+  },
+  "estimated_latest": {
+    "rows": [
+      {
+        "status": "canadian_born",
+        "label": "Canadian-born Citizens",
+        "count": 29633022,
+        "ref_date": "2026-01-01",
+        "source": "Estimated from latest population + census resident shares"
+      },
+      {
+        "status": "naturalized",
+        "label": "Naturalized Citizens",
+        "count": 6685650,
+        "ref_date": "2026-01-01",
+        "source": "Estimated from latest population + census resident shares"
+      },
+      {
+        "status": "permanent_resident",
+        "label": "Permanent Residents",
+        "count": 2476968,
+        "ref_date": "2026-01-01",
+        "source": "Estimated from latest population + census resident shares"
+      },
+      {
+        "status": "non_permanent_resident",
+        "label": "Temporary Residents",
+        "count": 2676441,
+        "ref_date": "2026-01-01",
+        "source": "Statistics Canada 17-10-0121-01"
+      }
+    ],
+    "total": 41472081,
+    "reconciles_to_population_total": 41472081,
+    "ref_date": "2026-01-01"
+  },
+  "census_snapshots": [
+    {
+      "year": 2021,
+      "status": "canadian_born",
+      "count": 27042125
+    },
+    {
+      "year": 2021,
+      "status": "naturalized",
+      "count": 6101105
+    },
+    {
+      "year": 2021,
+      "status": "non_permanent_resident",
+      "count": 924850
+    },
+    {
+      "year": 2021,
+      "status": "permanent_resident",
+      "count": 2260400
+    }
+  ],
+  "latest_census_year": 2021,
+  "source_dates": {
+    "population_current": "2026-01-01",
+    "npr_current": "2026-01-01",
+    "census_status": "2021"
+  },
+  "methodology": {
+    "summary": "Estimated status values refresh automatically on every pipeline run. Temporary residents use the latest quarterly total; the remaining resident categories are scaled from the latest census resident shares so the estimate reconciles exactly to the latest Canada population total.",
+    "actual_definition": "Actual uses the latest published figure for each category independently.",
+    "estimated_definition": "Estimated uses a common-date snapshot anchored to the latest total population and temporary resident total."
+  },
+  "freshness": {
+    "generated_at": "2026-04-06T00:00:00",
+    "latest_source_reference": "2026-01-01",
+    "stale": false,
+    "failed_sources": [],
+    "sources": []
+  }
+}

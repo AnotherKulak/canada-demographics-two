@@ -1,0 +1,16 @@
+{
+  "available": false,
+  "ref_year": null,
+  "total": 0,
+  "streams": [],
+  "source": "IRCC work permit holders by program",
+  "frequency": "Monthly aggregated to annual",
+  "note": "Program-level work permit data will populate here automatically after the pipeline finds and ingests the matching IRCC resource.",
+  "freshness": {
+    "generated_at": "2026-04-06T00:00:00",
+    "latest_source_reference": null,
+    "stale": false,
+    "failed_sources": [],
+    "sources": []
+  }
+}

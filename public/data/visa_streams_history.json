@@ -1,0 +1,766 @@
+{
+  "data": [
+    {
+      "date": "2021-07-01",
+      "stream": "asylum_no_permit",
+      "count": 68316
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1485
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 4094
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 94311
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "permit_other",
+      "count": 51505
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "permit_study_only",
+      "count": 368708
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "permit_work_and_study",
+      "count": 164855
+    },
+    {
+      "date": "2021-07-01",
+      "stream": "permit_work_only",
+      "count": 608581
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "asylum_no_permit",
+      "count": 69008
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1242
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "asylum_work_and_study",
+      "count": 3417
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "asylum_work_permit_only",
+      "count": 88826
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "permit_other",
+      "count": 55490
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "permit_study_only",
+      "count": 426963
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "permit_work_and_study",
+      "count": 162650
+    },
+    {
+      "date": "2021-10-01",
+      "stream": "permit_work_only",
+      "count": 635008
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "asylum_no_permit",
+      "count": 82236
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1365
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "asylum_work_and_study",
+      "count": 3206
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "asylum_work_permit_only",
+      "count": 74298
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "permit_other",
+      "count": 53585
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "permit_study_only",
+      "count": 446782
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "permit_work_and_study",
+      "count": 161101
+    },
+    {
+      "date": "2022-01-01",
+      "stream": "permit_work_only",
+      "count": 591133
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "asylum_no_permit",
+      "count": 95283
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1802
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "asylum_work_and_study",
+      "count": 3015
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "asylum_work_permit_only",
+      "count": 66680
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "permit_other",
+      "count": 59362
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "permit_study_only",
+      "count": 450192
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "permit_work_and_study",
+      "count": 169053
+    },
+    {
+      "date": "2022-04-01",
+      "stream": "permit_work_only",
+      "count": 602403
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "asylum_no_permit",
+      "count": 98357
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1635
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 3492
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 75089
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "permit_other",
+      "count": 66091
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "permit_study_only",
+      "count": 475124
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "permit_work_and_study",
+      "count": 185693
+    },
+    {
+      "date": "2022-07-01",
+      "stream": "permit_work_only",
+      "count": 681089
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "asylum_no_permit",
+      "count": 99020
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1230
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "asylum_work_and_study",
+      "count": 3764
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "asylum_work_permit_only",
+      "count": 90049
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "permit_other",
+      "count": 74847
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "permit_study_only",
+      "count": 523728
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "permit_work_and_study",
+      "count": 204895
+    },
+    {
+      "date": "2022-10-01",
+      "stream": "permit_work_only",
+      "count": 803300
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "asylum_no_permit",
+      "count": 105538
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1401
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "asylum_work_and_study",
+      "count": 4469
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "asylum_work_permit_only",
+      "count": 107457
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "permit_other",
+      "count": 80765
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "permit_study_only",
+      "count": 566201
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "permit_work_and_study",
+      "count": 219616
+    },
+    {
+      "date": "2023-01-01",
+      "stream": "permit_work_only",
+      "count": 866970
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "asylum_no_permit",
+      "count": 108724
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1624
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "asylum_work_and_study",
+      "count": 5405
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "asylum_work_permit_only",
+      "count": 123198
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "permit_other",
+      "count": 87031
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "permit_study_only",
+      "count": 556154
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "permit_work_and_study",
+      "count": 236765
+    },
+    {
+      "date": "2023-04-01",
+      "stream": "permit_work_only",
+      "count": 934003
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "asylum_no_permit",
+      "count": 107240
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 1641
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 6699
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 141803
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "permit_other",
+      "count": 96656
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "permit_study_only",
+      "count": 586812
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "permit_work_and_study",
+      "count": 271434
+    },
+    {
+      "date": "2023-07-01",
+      "stream": "permit_work_only",
+      "count": 1045810
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "asylum_no_permit",
+      "count": 114931
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2017
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "asylum_work_and_study",
+      "count": 7611
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "asylum_work_permit_only",
+      "count": 163895
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "permit_other",
+      "count": 110176
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "permit_study_only",
+      "count": 661084
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "permit_work_and_study",
+      "count": 296263
+    },
+    {
+      "date": "2023-10-01",
+      "stream": "permit_work_only",
+      "count": 1216177
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "asylum_no_permit",
+      "count": 129253
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2884
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "asylum_work_and_study",
+      "count": 9181
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "asylum_work_permit_only",
+      "count": 187171
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "permit_other",
+      "count": 126932
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "permit_study_only",
+      "count": 685835
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "permit_work_and_study",
+      "count": 320838
+    },
+    {
+      "date": "2024-01-01",
+      "stream": "permit_work_only",
+      "count": 1279429
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "asylum_no_permit",
+      "count": 131077
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "asylum_study_permit_only",
+      "count": 3487
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "asylum_work_and_study",
+      "count": 11921
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "asylum_work_permit_only",
+      "count": 217020
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "permit_other",
+      "count": 145805
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "permit_study_only",
+      "count": 667848
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "permit_work_and_study",
+      "count": 346938
+    },
+    {
+      "date": "2024-04-01",
+      "stream": "permit_work_only",
+      "count": 1379319
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "asylum_no_permit",
+      "count": 131116
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2878
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 15291
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 249628
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "permit_other",
+      "count": 151067
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "permit_study_only",
+      "count": 669137
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "permit_work_and_study",
+      "count": 373792
+    },
+    {
+      "date": "2024-07-01",
+      "stream": "permit_work_only",
+      "count": 1446261
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "asylum_no_permit",
+      "count": 131287
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2406
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "asylum_work_and_study",
+      "count": 16765
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "asylum_work_permit_only",
+      "count": 279181
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "permit_other",
+      "count": 155986
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "permit_study_only",
+      "count": 658942
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "permit_work_and_study",
+      "count": 341162
+    },
+    {
+      "date": "2024-10-01",
+      "stream": "permit_work_only",
+      "count": 1563402
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "asylum_no_permit",
+      "count": 137477
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2529
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "asylum_work_and_study",
+      "count": 20066
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "asylum_work_permit_only",
+      "count": 299848
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "permit_other",
+      "count": 152812
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "permit_study_only",
+      "count": 628810
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "permit_work_and_study",
+      "count": 330060
+    },
+    {
+      "date": "2025-01-01",
+      "stream": "permit_work_only",
+      "count": 1566527
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "asylum_no_permit",
+      "count": 134788
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2435
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "asylum_work_and_study",
+      "count": 23455
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "asylum_work_permit_only",
+      "count": 318864
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "permit_other",
+      "count": 149837
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "permit_study_only",
+      "count": 583125
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "permit_work_and_study",
+      "count": 331112
+    },
+    {
+      "date": "2025-04-01",
+      "stream": "permit_work_only",
+      "count": 1539319
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "asylum_no_permit",
+      "count": 135845
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2565
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 24915
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 334118
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "permit_other",
+      "count": 143951
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "permit_study_only",
+      "count": 551100
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "permit_work_and_study",
+      "count": 312040
+    },
+    {
+      "date": "2025-07-01",
+      "stream": "permit_work_only",
+      "count": 1519682
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "asylum_no_permit",
+      "count": 144662
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2363
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "asylum_work_and_study",
+      "count": 23396
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "asylum_work_permit_only",
+      "count": 334346
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "permit_other",
+      "count": 136677
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "permit_study_only",
+      "count": 477418
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "permit_work_and_study",
+      "count": 244424
+    },
+    {
+      "date": "2025-10-01",
+      "stream": "permit_work_only",
+      "count": 1484451
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "asylum_no_permit",
+      "count": 138080
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2368
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "asylum_work_and_study",
+      "count": 23523
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "asylum_work_permit_only",
+      "count": 354518
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "permit_other",
+      "count": 127584
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "permit_study_only",
+      "count": 431537
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "permit_work_and_study",
+      "count": 223265
+    },
+    {
+      "date": "2026-01-01",
+      "stream": "permit_work_only",
+      "count": 1375566
+    }
+  ],
+  "source": "Statistics Canada 17-10-0121-01",
+  "frequency": "Quarterly"
+}

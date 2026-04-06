@@ -1,0 +1,99 @@
+{
+  "categories": [
+    {
+      "category": "foreign_born_total",
+      "label": "Foreign-born Total",
+      "total": 11839059,
+      "top10": [
+        { "country": "India", "count": 3016237 },
+        { "country": "China", "count": 1248574 },
+        { "country": "Philippines", "count": 1237002 },
+        { "country": "Southeast Asia", "count": 1220895 },
+        { "country": "West Central Asia and the Middle East", "count": 899232 },
+        { "country": "United Kingdom", "count": 644664 },
+        { "country": "Caribbean and Bermuda", "count": 543725 },
+        { "country": "Pakistan", "count": 407246 },
+        { "country": "Nigeria", "count": 362221 },
+        { "country": "Hong Kong", "count": 345766 }
+      ],
+      "non_top_10": 1913497,
+      "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
+      "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
+      "is_estimated": true
+    },
+    {
+      "category": "naturalized",
+      "label": "Naturalized Citizens",
+      "total": 6685650,
+      "top10": [
+        { "country": "Southeast Asia", "count": 1220895 },
+        { "country": "West Central Asia and the Middle East", "count": 899232 },
+        { "country": "India", "count": 878692 },
+        { "country": "Philippines", "count": 784431 },
+        { "country": "China", "count": 740499 },
+        { "country": "United Kingdom", "count": 644664 },
+        { "country": "Caribbean and Bermuda", "count": 543725 },
+        { "country": "Hong Kong", "count": 345766 },
+        { "country": "Italy", "count": 314351 },
+        { "country": "Pakistan", "count": 313395 }
+      ],
+      "non_top_10": 0,
+      "source_period": "2021 census distribution scaled to current estimated stock",
+      "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
+      "is_estimated": true
+    },
+    {
+      "category": "permanent_resident",
+      "label": "Permanent Residents",
+      "total": 2476968,
+      "top10": [
+        { "country": "India", "count": 1045046 },
+        { "country": "Philippines", "count": 266800 },
+        { "country": "Cameroon", "count": 242531 },
+        { "country": "China", "count": 223179 },
+        { "country": "Nigeria", "count": 173002 },
+        { "country": "Eritrea", "count": 130598 },
+        { "country": "France", "count": 126632 },
+        { "country": "Pakistan", "count": 93851 },
+        { "country": "Ukraine", "count": 88458 },
+        { "country": "Afghanistan", "count": 86871 }
+      ],
+      "non_top_10": 0,
+      "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
+      "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
+      "is_estimated": true
+    },
+    {
+      "category": "temporary_resident",
+      "label": "Temporary Residents",
+      "total": 2676441,
+      "top10": [
+        { "country": "India", "count": 1092499 },
+        { "country": "China", "count": 284896 },
+        { "country": "Ukraine", "count": 217016 },
+        { "country": "Nigeria", "count": 189219 },
+        { "country": "Philippines", "count": 185771 },
+        { "country": "Iran", "count": 177222 },
+        { "country": "France", "count": 125235 },
+        { "country": "United States", "count": 104854 },
+        { "country": "South Korea", "count": 74003 },
+        { "country": "Haiti", "count": 63246 }
+      ],
+      "non_top_10": 162480,
+      "source_period": "Study 2025, work 2025, asylum 2025",
+      "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
+      "is_estimated": true
+    }
+  ],
+  "methodology": {
+    "summary": "Country-of-origin totals refresh automatically on every pipeline run. Each category reuses the newest available country distribution and scales it to the newest estimated stock total.",
+    "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
+  },
+  "freshness": {
+    "generated_at": "2026-04-06T00:00:00",
+    "latest_source_reference": "Naturalized 2021, PR 2025, Temporary 2025",
+    "stale": false,
+    "failed_sources": [],
+    "sources": []
+  }
+}

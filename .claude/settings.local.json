@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501\" -o /dev/null -w \"%{http_code}\")",
+      "WebFetch(domain:www.statcan.gc.ca)",
+      "WebFetch(domain:www150.statcan.gc.ca)",
+      "WebFetch(domain:open.canada.ca)",
+      "WebFetch(domain:search.open.canada.ca)"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ref_year": 2025,
+  "top10": [
+    {
+      "country": "India",
+      "count": 98825
+    },
+    {
+      "country": "Philippines",
+      "count": 25230
+    },
+    {
+      "country": "Cameroon, Federal Republic of",
+      "count": 22935
+    },
+    {
+      "country": "China, People's Republic of",
+      "count": 21105
+    },
+    {
+      "country": "Nigeria",
+      "count": 16360
+    },
+    {
+      "country": "Eritrea",
+      "count": 12350
+    },
+    {
+      "country": "France",
+      "count": 11975
+    },
+    {
+      "country": "Pakistan",
+      "count": 8875
+    },
+    {
+      "country": "Ukraine",
+      "count": 8365
+    },
+    {
+      "country": "Afghanistan",
+      "count": 8215
+    }
+  ],
+  "source": "IRCC Permanent Residents \u2014 open.canada.ca",
+  "frequency": "Monthly"
+}

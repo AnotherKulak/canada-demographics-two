@@ -1,0 +1,1249 @@
+{
+  "latest_census_year": 2021,
+  "top10": [
+    {
+      "country": "Southeast Asia",
+      "count": 721310
+    },
+    {
+      "country": "West Central Asia and the Middle East",
+      "count": 531270
+    },
+    {
+      "country": "India",
+      "count": 519135
+    },
+    {
+      "country": "Philippines",
+      "count": 463445
+    },
+    {
+      "country": "China",
+      "count": 437490
+    },
+    {
+      "country": "United Kingdom",
+      "count": 380870
+    },
+    {
+      "country": "Caribbean and Bermuda",
+      "count": 321235
+    },
+    {
+      "country": "Hong Kong",
+      "count": 204280
+    },
+    {
+      "country": "Italy",
+      "count": 185720
+    },
+    {
+      "country": "Pakistan",
+      "count": 185155
+    }
+  ],
+  "all_census_data": [
+    {
+      "year": 2021,
+      "country": "Southeast Asia",
+      "count": 721310
+    },
+    {
+      "year": 2021,
+      "country": "West Central Asia and the Middle East",
+      "count": 531270
+    },
+    {
+      "year": 2021,
+      "country": "India",
+      "count": 519135
+    },
+    {
+      "year": 2021,
+      "country": "Philippines",
+      "count": 463445
+    },
+    {
+      "year": 2021,
+      "country": "China",
+      "count": 437490
+    },
+    {
+      "year": 2021,
+      "country": "United Kingdom",
+      "count": 380870
+    },
+    {
+      "year": 2021,
+      "country": "Caribbean and Bermuda",
+      "count": 321235
+    },
+    {
+      "year": 2021,
+      "country": "Hong Kong",
+      "count": 204280
+    },
+    {
+      "year": 2021,
+      "country": "Italy",
+      "count": 185720
+    },
+    {
+      "year": 2021,
+      "country": "Pakistan",
+      "count": 185155
+    },
+    {
+      "year": 2021,
+      "country": "Viet Nam",
+      "count": 159310
+    },
+    {
+      "year": 2021,
+      "country": "North America",
+      "count": 151790
+    },
+    {
+      "year": 2021,
+      "country": "United States of America",
+      "count": 151445
+    },
+    {
+      "year": 2021,
+      "country": "Iran",
+      "count": 145620
+    },
+    {
+      "year": 2021,
+      "country": "Poland",
+      "count": 125225
+    },
+    {
+      "year": 2021,
+      "country": "Jamaica",
+      "count": 117645
+    },
+    {
+      "year": 2021,
+      "country": "Sri Lanka",
+      "count": 112705
+    },
+    {
+      "year": 2021,
+      "country": "Portugal",
+      "count": 107130
+    },
+    {
+      "year": 2021,
+      "country": "Germany",
+      "count": 96425
+    },
+    {
+      "year": 2021,
+      "country": "Korea, South",
+      "count": 94345
+    },
+    {
+      "year": 2021,
+      "country": "Lebanon",
+      "count": 83230
+    },
+    {
+      "year": 2021,
+      "country": "France",
+      "count": 82385
+    },
+    {
+      "year": 2021,
+      "country": "Romania",
+      "count": 79945
+    },
+    {
+      "year": 2021,
+      "country": "Guyana",
+      "count": 79210
+    },
+    {
+      "year": 2021,
+      "country": "Haiti",
+      "count": 78500
+    },
+    {
+      "year": 2021,
+      "country": "Russian Federation",
+      "count": 65535
+    },
+    {
+      "year": 2021,
+      "country": "Morocco",
+      "count": 64170
+    },
+    {
+      "year": 2021,
+      "country": "Netherlands",
+      "count": 63815
+    },
+    {
+      "year": 2021,
+      "country": "Mexico",
+      "count": 62905
+    },
+    {
+      "year": 2021,
+      "country": "Ukraine",
+      "count": 61870
+    },
+    {
+      "year": 2021,
+      "country": "Colombia",
+      "count": 61330
+    },
+    {
+      "year": 2021,
+      "country": "Iraq",
+      "count": 59465
+    },
+    {
+      "year": 2021,
+      "country": "Taiwan",
+      "count": 59335
+    },
+    {
+      "year": 2021,
+      "country": "Algeria",
+      "count": 59320
+    },
+    {
+      "year": 2021,
+      "country": "Trinidad and Tobago",
+      "count": 58575
+    },
+    {
+      "year": 2021,
+      "country": "Egypt",
+      "count": 57660
+    },
+    {
+      "year": 2021,
+      "country": "Bangladesh",
+      "count": 53710
+    },
+    {
+      "year": 2021,
+      "country": "Greece",
+      "count": 51310
+    },
+    {
+      "year": 2021,
+      "country": "Afghanistan",
+      "count": 44475
+    },
+    {
+      "year": 2021,
+      "country": "Central Africa",
+      "count": 44115
+    },
+    {
+      "year": 2021,
+      "country": "El Salvador",
+      "count": 41195
+    },
+    {
+      "year": 2021,
+      "country": "Syria",
+      "count": 40460
+    },
+    {
+      "year": 2021,
+      "country": "South Africa, Republic of",
+      "count": 40385
+    },
+    {
+      "year": 2021,
+      "country": "Nigeria",
+      "count": 39445
+    },
+    {
+      "year": 2021,
+      "country": "Bosnia and Herzegovina",
+      "count": 34310
+    },
+    {
+      "year": 2021,
+      "country": "Croatia",
+      "count": 33995
+    },
+    {
+      "year": 2021,
+      "country": "Serbia",
+      "count": 28685
+    },
+    {
+      "year": 2021,
+      "country": "Ethiopia",
+      "count": 28645
+    },
+    {
+      "year": 2021,
+      "country": "Hungary",
+      "count": 26315
+    },
+    {
+      "year": 2021,
+      "country": "Peru",
+      "count": 26255
+    },
+    {
+      "year": 2021,
+      "country": "Kenya",
+      "count": 24430
+    },
+    {
+      "year": 2021,
+      "country": "Brazil",
+      "count": 24005
+    },
+    {
+      "year": 2021,
+      "country": "Somalia",
+      "count": 23670
+    },
+    {
+      "year": 2021,
+      "country": "Israel",
+      "count": 23020
+    },
+    {
+      "year": 2021,
+      "country": "Chile",
+      "count": 22195
+    },
+    {
+      "year": 2021,
+      "country": "Fiji",
+      "count": 22165
+    },
+    {
+      "year": 2021,
+      "country": "Turkey",
+      "count": 22120
+    },
+    {
+      "year": 2021,
+      "country": "Ghana",
+      "count": 21080
+    },
+    {
+      "year": 2021,
+      "country": "Cambodia",
+      "count": 20995
+    },
+    {
+      "year": 2021,
+      "country": "Congo, Democratic Republic of the",
+      "count": 20830
+    },
+    {
+      "year": 2021,
+      "country": "Malaysia",
+      "count": 19715
+    },
+    {
+      "year": 2021,
+      "country": "United Arab Emirates",
+      "count": 19345
+    },
+    {
+      "year": 2021,
+      "country": "Ireland",
+      "count": 19280
+    },
+    {
+      "year": 2021,
+      "country": "Tanzania",
+      "count": 19140
+    },
+    {
+      "year": 2021,
+      "country": "Venezuela",
+      "count": 18965
+    },
+    {
+      "year": 2021,
+      "country": "Saudi Arabia",
+      "count": 18550
+    },
+    {
+      "year": 2021,
+      "country": "Bulgaria",
+      "count": 17280
+    },
+    {
+      "year": 2021,
+      "country": "Czechia",
+      "count": 16965
+    },
+    {
+      "year": 2021,
+      "country": "Argentina",
+      "count": 16610
+    },
+    {
+      "year": 2021,
+      "country": "Moldova",
+      "count": 15875
+    },
+    {
+      "year": 2021,
+      "country": "Cameroon",
+      "count": 15655
+    },
+    {
+      "year": 2021,
+      "country": "Switzerland",
+      "count": 15465
+    },
+    {
+      "year": 2021,
+      "country": "Guatemala",
+      "count": 15145
+    },
+    {
+      "year": 2021,
+      "country": "Tunisia",
+      "count": 14740
+    },
+    {
+      "year": 2021,
+      "country": "Belgium",
+      "count": 14455
+    },
+    {
+      "year": 2021,
+      "country": "Albania",
+      "count": 14135
+    },
+    {
+      "year": 2021,
+      "country": "Mauritius",
+      "count": 14075
+    },
+    {
+      "year": 2021,
+      "country": "Kuwait",
+      "count": 13880
+    },
+    {
+      "year": 2021,
+      "country": "Australia",
+      "count": 13695
+    },
+    {
+      "year": 2021,
+      "country": "Ecuador",
+      "count": 13520
+    },
+    {
+      "year": 2021,
+      "country": "Laos",
+      "count": 13475
+    },
+    {
+      "year": 2021,
+      "country": "Cuba",
+      "count": 13180
+    },
+    {
+      "year": 2021,
+      "country": "Thailand",
+      "count": 13075
+    },
+    {
+      "year": 2021,
+      "country": "Eritrea",
+      "count": 13040
+    },
+    {
+      "year": 2021,
+      "country": "Uganda",
+      "count": 12465
+    },
+    {
+      "year": 2021,
+      "country": "Jordan",
+      "count": 12280
+    },
+    {
+      "year": 2021,
+      "country": "Barbados",
+      "count": 11740
+    },
+    {
+      "year": 2021,
+      "country": "Japan",
+      "count": 11495
+    },
+    {
+      "year": 2021,
+      "country": "Austria",
+      "count": 11470
+    },
+    {
+      "year": 2021,
+      "country": "Nepal",
+      "count": 11095
+    },
+    {
+      "year": 2021,
+      "country": "Slovakia",
+      "count": 11065
+    },
+    {
+      "year": 2021,
+      "country": "Indonesia",
+      "count": 10830
+    },
+    {
+      "year": 2021,
+      "country": "Belarus",
+      "count": 10270
+    },
+    {
+      "year": 2021,
+      "country": "Sudan",
+      "count": 10020
+    },
+    {
+      "year": 2021,
+      "country": "C\u00f4te d'Ivoire",
+      "count": 9945
+    },
+    {
+      "year": 2021,
+      "country": "Saint Vincent and the Grenadines",
+      "count": 9750
+    },
+    {
+      "year": 2021,
+      "country": "Nicaragua",
+      "count": 9580
+    },
+    {
+      "year": 2021,
+      "country": "Kazakhstan",
+      "count": 9425
+    },
+    {
+      "year": 2021,
+      "country": "North Macedonia",
+      "count": 9230
+    },
+    {
+      "year": 2021,
+      "country": "Zimbabwe",
+      "count": 9155
+    },
+    {
+      "year": 2021,
+      "country": "Singapore",
+      "count": 9085
+    },
+    {
+      "year": 2021,
+      "country": "Denmark",
+      "count": 9035
+    },
+    {
+      "year": 2021,
+      "country": "Spain",
+      "count": 8300
+    },
+    {
+      "year": 2021,
+      "country": "Grenada",
+      "count": 8065
+    },
+    {
+      "year": 2021,
+      "country": "Dominican Republic",
+      "count": 7940
+    },
+    {
+      "year": 2021,
+      "country": "Finland",
+      "count": 7300
+    },
+    {
+      "year": 2021,
+      "country": "New Zealand",
+      "count": 7220
+    },
+    {
+      "year": 2021,
+      "country": "West Bank and Gaza Strip",
+      "count": 7170
+    },
+    {
+      "year": 2021,
+      "country": "Burundi",
+      "count": 7145
+    },
+    {
+      "year": 2021,
+      "country": "Myanmar",
+      "count": 7005
+    },
+    {
+      "year": 2021,
+      "country": "Kosovo",
+      "count": 6935
+    },
+    {
+      "year": 2021,
+      "country": "Senegal",
+      "count": 6850
+    },
+    {
+      "year": 2021,
+      "country": "Slovenia",
+      "count": 6695
+    },
+    {
+      "year": 2021,
+      "country": "Malta",
+      "count": 5940
+    },
+    {
+      "year": 2021,
+      "country": "Honduras",
+      "count": 5890
+    },
+    {
+      "year": 2021,
+      "country": "Rwanda",
+      "count": 5740
+    },
+    {
+      "year": 2021,
+      "country": "Paraguay",
+      "count": 5650
+    },
+    {
+      "year": 2021,
+      "country": "Uruguay",
+      "count": 5545
+    },
+    {
+      "year": 2021,
+      "country": "Libya",
+      "count": 5370
+    },
+    {
+      "year": 2021,
+      "country": "Uzbekistan",
+      "count": 5175
+    },
+    {
+      "year": 2021,
+      "country": "Sweden",
+      "count": 5070
+    },
+    {
+      "year": 2021,
+      "country": "Macao",
+      "count": 5050
+    },
+    {
+      "year": 2021,
+      "country": "South Sudan",
+      "count": 4405
+    },
+    {
+      "year": 2021,
+      "country": "Brunei Darussalam",
+      "count": 4355
+    },
+    {
+      "year": 2021,
+      "country": "Saint Lucia",
+      "count": 4345
+    },
+    {
+      "year": 2021,
+      "country": "Latvia",
+      "count": 4215
+    },
+    {
+      "year": 2021,
+      "country": "Guinea",
+      "count": 4140
+    },
+    {
+      "year": 2021,
+      "country": "Armenia",
+      "count": 3845
+    },
+    {
+      "year": 2021,
+      "country": "Lithuania",
+      "count": 3790
+    },
+    {
+      "year": 2021,
+      "country": "Cyprus",
+      "count": 3760
+    },
+    {
+      "year": 2021,
+      "country": "Azerbaijan",
+      "count": 3725
+    },
+    {
+      "year": 2021,
+      "country": "Madagascar",
+      "count": 3510
+    },
+    {
+      "year": 2021,
+      "country": "Costa Rica",
+      "count": 3265
+    },
+    {
+      "year": 2021,
+      "country": "Togo",
+      "count": 3185
+    },
+    {
+      "year": 2021,
+      "country": "Bolivia",
+      "count": 3125
+    },
+    {
+      "year": 2021,
+      "country": "Angola",
+      "count": 2915
+    },
+    {
+      "year": 2021,
+      "country": "Zambia",
+      "count": 2860
+    },
+    {
+      "year": 2021,
+      "country": "Kyrgyzstan",
+      "count": 2790
+    },
+    {
+      "year": 2021,
+      "country": "Sierra Leone",
+      "count": 2630
+    },
+    {
+      "year": 2021,
+      "country": "Qatar",
+      "count": 2600
+    },
+    {
+      "year": 2021,
+      "country": "Yemen",
+      "count": 2540
+    },
+    {
+      "year": 2021,
+      "country": "Benin",
+      "count": 2520
+    },
+    {
+      "year": 2021,
+      "country": "Norway",
+      "count": 2510
+    },
+    {
+      "year": 2021,
+      "country": "Dominica",
+      "count": 2475
+    },
+    {
+      "year": 2021,
+      "country": "Bhutan",
+      "count": 2435
+    },
+    {
+      "year": 2021,
+      "country": "Georgia",
+      "count": 2380
+    },
+    {
+      "year": 2021,
+      "country": "Estonia",
+      "count": 2270
+    },
+    {
+      "year": 2021,
+      "country": "Panama",
+      "count": 2260
+    },
+    {
+      "year": 2021,
+      "country": "Bahrain",
+      "count": 2215
+    },
+    {
+      "year": 2021,
+      "country": "Congo, Republic of the",
+      "count": 2080
+    },
+    {
+      "year": 2021,
+      "country": "Antigua and Barbuda",
+      "count": 2040
+    },
+    {
+      "year": 2021,
+      "country": "Liberia",
+      "count": 1960
+    },
+    {
+      "year": 2021,
+      "country": "Saint Kitts and Nevis",
+      "count": 1835
+    },
+    {
+      "year": 2021,
+      "country": "Djibouti",
+      "count": 1825
+    },
+    {
+      "year": 2021,
+      "country": "Inside Canada",
+      "count": 1785
+    },
+    {
+      "year": 2021,
+      "country": "Belize",
+      "count": 1775
+    },
+    {
+      "year": 2021,
+      "country": "Mali",
+      "count": 1775
+    },
+    {
+      "year": 2021,
+      "country": "Burkina Faso",
+      "count": 1775
+    },
+    {
+      "year": 2021,
+      "country": "Oman",
+      "count": 1560
+    },
+    {
+      "year": 2021,
+      "country": "Montenegro",
+      "count": 1395
+    },
+    {
+      "year": 2021,
+      "country": "Bermuda",
+      "count": 1355
+    },
+    {
+      "year": 2021,
+      "country": "Tajikistan",
+      "count": 1190
+    },
+    {
+      "year": 2021,
+      "country": "Chad",
+      "count": 1095
+    },
+    {
+      "year": 2021,
+      "country": "Bahamas",
+      "count": 1075
+    },
+    {
+      "year": 2021,
+      "country": "Mongolia",
+      "count": 1050
+    },
+    {
+      "year": 2021,
+      "country": "Mozambique",
+      "count": 1045
+    },
+    {
+      "year": 2021,
+      "country": "Seychelles",
+      "count": 885
+    },
+    {
+      "year": 2021,
+      "country": "Gabon",
+      "count": 885
+    },
+    {
+      "year": 2021,
+      "country": "Mauritania",
+      "count": 835
+    },
+    {
+      "year": 2021,
+      "country": "Niger",
+      "count": 815
+    },
+    {
+      "year": 2021,
+      "country": "Suriname",
+      "count": 790
+    },
+    {
+      "year": 2021,
+      "country": "Namibia",
+      "count": 645
+    },
+    {
+      "year": 2021,
+      "country": "Ontario",
+      "count": 640
+    },
+    {
+      "year": 2021,
+      "country": "Korea, North",
+      "count": 630
+    },
+    {
+      "year": 2021,
+      "country": "Botswana",
+      "count": 600
+    },
+    {
+      "year": 2021,
+      "country": "Central African Republic",
+      "count": 600
+    },
+    {
+      "year": 2021,
+      "country": "Gambia",
+      "count": 565
+    },
+    {
+      "year": 2021,
+      "country": "Montserrat",
+      "count": 525
+    },
+    {
+      "year": 2021,
+      "country": "Malawi",
+      "count": 500
+    },
+    {
+      "year": 2021,
+      "country": "Turkmenistan",
+      "count": 440
+    },
+    {
+      "year": 2021,
+      "country": "Guadeloupe",
+      "count": 425
+    },
+    {
+      "year": 2021,
+      "country": "Martinique",
+      "count": 415
+    },
+    {
+      "year": 2021,
+      "country": "Aruba",
+      "count": 415
+    },
+    {
+      "year": 2021,
+      "country": "Iceland",
+      "count": 395
+    },
+    {
+      "year": 2021,
+      "country": "Luxembourg",
+      "count": 350
+    },
+    {
+      "year": 2021,
+      "country": "Quebec",
+      "count": 345
+    },
+    {
+      "year": 2021,
+      "country": "Saint Pierre and Miquelon",
+      "count": 340
+    },
+    {
+      "year": 2021,
+      "country": "Cura\u00e7ao",
+      "count": 335
+    },
+    {
+      "year": 2021,
+      "country": "Isle of Man",
+      "count": 330
+    },
+    {
+      "year": 2021,
+      "country": "Jersey",
+      "count": 275
+    },
+    {
+      "year": 2021,
+      "country": "Eswatini",
+      "count": 270
+    },
+    {
+      "year": 2021,
+      "country": "Papua New Guinea",
+      "count": 245
+    },
+    {
+      "year": 2021,
+      "country": "Cabo Verde",
+      "count": 235
+    },
+    {
+      "year": 2021,
+      "country": "Puerto Rico",
+      "count": 225
+    },
+    {
+      "year": 2021,
+      "country": "Gibraltar",
+      "count": 180
+    },
+    {
+      "year": 2021,
+      "country": "British Columbia",
+      "count": 175
+    },
+    {
+      "year": 2021,
+      "country": "New Brunswick",
+      "count": 170
+    },
+    {
+      "year": 2021,
+      "country": "French Polynesia",
+      "count": 170
+    },
+    {
+      "year": 2021,
+      "country": "Comoros",
+      "count": 165
+    },
+    {
+      "year": 2021,
+      "country": "R\u00e9union",
+      "count": 160
+    },
+    {
+      "year": 2021,
+      "country": "French Guiana",
+      "count": 140
+    },
+    {
+      "year": 2021,
+      "country": "Alberta",
+      "count": 135
+    },
+    {
+      "year": 2021,
+      "country": "Guernsey",
+      "count": 120
+    },
+    {
+      "year": 2021,
+      "country": "Lesotho",
+      "count": 105
+    },
+    {
+      "year": 2021,
+      "country": "New Caledonia",
+      "count": 100
+    },
+    {
+      "year": 2021,
+      "country": "Samoa",
+      "count": 95
+    },
+    {
+      "year": 2021,
+      "country": "Nova Scotia",
+      "count": 95
+    },
+    {
+      "year": 2021,
+      "country": "Manitoba",
+      "count": 85
+    },
+    {
+      "year": 2021,
+      "country": "Tonga",
+      "count": 80
+    },
+    {
+      "year": 2021,
+      "country": "Saskatchewan",
+      "count": 75
+    },
+    {
+      "year": 2021,
+      "country": "Guinea-Bissau",
+      "count": 75
+    },
+    {
+      "year": 2021,
+      "country": "Cayman Islands",
+      "count": 75
+    },
+    {
+      "year": 2021,
+      "country": "Monaco",
+      "count": 70
+    },
+    {
+      "year": 2021,
+      "country": "Anguilla",
+      "count": 70
+    },
+    {
+      "year": 2021,
+      "country": "Virgin Islands, British",
+      "count": 70
+    },
+    {
+      "year": 2021,
+      "country": "Northern Mariana Islands",
+      "count": 65
+    },
+    {
+      "year": 2021,
+      "country": "Other",
+      "count": 65
+    },
+    {
+      "year": 2021,
+      "country": "Newfoundland and Labrador",
+      "count": 55
+    },
+    {
+      "year": 2021,
+      "country": "Sint Maarten (Dutch part)",
+      "count": 45
+    },
+    {
+      "year": 2021,
+      "country": "Turks and Caicos Islands",
+      "count": 40
+    },
+    {
+      "year": 2021,
+      "country": "Saint Martin (French part)",
+      "count": 40
+    },
+    {
+      "year": 2021,
+      "country": "Nauru",
+      "count": 35
+    },
+    {
+      "year": 2021,
+      "country": "Equatorial Guinea",
+      "count": 35
+    },
+    {
+      "year": 2021,
+      "country": "Andorra",
+      "count": 30
+    },
+    {
+      "year": 2021,
+      "country": "Virgin Islands, United States",
+      "count": 25
+    },
+    {
+      "year": 2021,
+      "country": "Maldives",
+      "count": 25
+    },
+    {
+      "year": 2021,
+      "country": "Vanuatu",
+      "count": 20
+    },
+    {
+      "year": 2021,
+      "country": "Guam",
+      "count": 20
+    },
+    {
+      "year": 2021,
+      "country": "Faroe Islands",
+      "count": 20
+    },
+    {
+      "year": 2021,
+      "country": "Prince Edward Island",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Liechtenstein",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Timor-Leste",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Falkland Islands (Malvinas)",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Sao Tome and Principe",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Saint Helena, Ascension and Tristan da Cunha",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Kiribati",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "country": "Greenland",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "country": "Micronesia, Federated States of",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "country": "Solomon Islands",
+      "count": 10
+    }
+  ],
+  "source": "Statistics Canada 98-10-0304-01",
+  "frequency": "Census (every 5 years)"
+}
