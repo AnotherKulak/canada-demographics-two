@@ -44,5 +44,24 @@
     }
   ],
   "source": "Statistics Canada 17-10-0121-01",
-  "frequency": "Quarterly"
+  "frequency": "Quarterly",
+  "freshness": {
+    "generated_at": "2026-04-07T11:58:18.799979",
+    "latest_source_reference": "2021-07-01 to 2026-01-01",
+    "stale": false,
+    "failed_sources": [],
+    "sources": [
+      {
+        "dataset_key": "npr_by_type_quarterly",
+        "source_family": "statcan",
+        "source_id": "17-10-0121-01",
+        "resource_id": null,
+        "reference_period": "2021-07-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-04-07 11:56:14.939000",
+        "notes": null
+      }
+    ]
+  }
 }
