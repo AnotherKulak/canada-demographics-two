@@ -272,12 +272,12 @@
     },
     {
       "year": 2020,
-      "country": "Burundi",
+      "country": "Tunisia",
       "count": 335
     },
     {
       "year": 2020,
-      "country": "Tunisia",
+      "country": "Burundi",
       "count": 335
     },
     {
@@ -577,12 +577,12 @@
     },
     {
       "year": 2026,
-      "country": "Congo, Democratic Republic of the",
+      "country": "Haiti",
       "count": 115
     },
     {
       "year": 2026,
-      "country": "Haiti",
+      "country": "Congo, Democratic Republic of the",
       "count": 115
     },
     {
@@ -605,7 +605,7 @@
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-04-08T11:59:43.282142",
+    "generated_at": "2026-04-09T12:00:27.559993",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-08 11:59:42.844000",
+        "loaded_at": "2026-04-09 12:00:27.285000",
         "notes": null
       }
     ]
