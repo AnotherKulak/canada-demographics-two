@@ -38,14 +38,14 @@
       "count": 530
     },
     {
-      "country": "Mauritius",
+      "country": "Benin, Republic of",
       "count": 400
     }
   ],
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-04-09T12:00:27.559993",
+    "generated_at": "2026-04-10T12:00:02.280924",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -58,7 +58,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-09 12:00:27.285000",
+        "loaded_at": "2026-04-10 12:00:01.800000",
         "notes": null
       }
     ]

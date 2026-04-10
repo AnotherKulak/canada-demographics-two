@@ -1142,7 +1142,7 @@
   "source": "Statistics Canada 98-10-0302-01",
   "frequency": "Census (every 5 years)",
   "freshness": {
-    "generated_at": "2026-04-09T12:00:27.559993",
+    "generated_at": "2026-04-10T12:00:02.280924",
     "latest_source_reference": "2021 to 2021",
     "stale": false,
     "failed_sources": [],
@@ -1155,7 +1155,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-09 12:00:10.579000",
+        "loaded_at": "2026-04-10 11:59:44.452000",
         "notes": null
       }
     ]
