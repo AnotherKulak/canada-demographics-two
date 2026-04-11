@@ -3,50 +3,50 @@
     {
       "category": "foreign_born_total",
       "label": "Foreign-born Total",
-      "total": 2676441,
+      "total": 28540201,
       "top10": [
+        {
+          "country": "Cameroon",
+          "count": 5318739
+        },
+        {
+          "country": "Non-top-10 Naturalized",
+          "count": 4838173
+        },
+        {
+          "country": "Asia",
+          "count": 4236129
+        },
+        {
+          "country": "Non-top-10 Permanent Residents",
+          "count": 1575594
+        },
+        {
+          "country": "India",
+          "count": 1335811
+        },
+        {
+          "country": "Algeria",
+          "count": 1254321
+        },
+        {
+          "country": "Morocco",
+          "count": 1159441
+        },
         {
           "country": "Non-top-10 Temporary Residents",
           "count": 1070394
         },
         {
-          "country": "India",
-          "count": 590476
+          "country": "France",
+          "count": 931602
         },
         {
           "country": "China",
-          "count": 264458
-        },
-        {
-          "country": "Nigeria",
-          "count": 177757
-        },
-        {
-          "country": "Haiti",
-          "count": 114020
-        },
-        {
-          "country": "Mexico",
-          "count": 105976
-        },
-        {
-          "country": "Philippines",
-          "count": 98940
-        },
-        {
-          "country": "Iran",
-          "count": 82782
-        },
-        {
-          "country": "France",
-          "count": 63691
-        },
-        {
-          "country": "Bangladesh",
-          "count": 55349
+          "count": 892573
         }
       ],
-      "non_top_10": 52598,
+      "non_top_10": 5927424,
       "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
@@ -54,9 +54,50 @@
     {
       "category": "naturalized",
       "label": "Naturalized Citizens",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
+      "total": 12931880,
+      "top10": [
+        {
+          "country": "Asia",
+          "count": 4236129
+        },
+        {
+          "country": "India",
+          "count": 745335
+        },
+        {
+          "country": "Philippines",
+          "count": 665380
+        },
+        {
+          "country": "China",
+          "count": 628115
+        },
+        {
+          "country": "United Kingdom",
+          "count": 546825
+        },
+        {
+          "country": "Hong Kong",
+          "count": 293290
+        },
+        {
+          "country": "Italy",
+          "count": 266643
+        },
+        {
+          "country": "Pakistan",
+          "count": 265832
+        },
+        {
+          "country": "Vietnam",
+          "count": 228725
+        },
+        {
+          "country": "United States",
+          "count": 217433
+        }
+      ],
+      "non_top_10": 4838173,
       "source_period": "2021 census distribution scaled to current estimated stock",
       "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
       "is_estimated": true
@@ -64,9 +105,50 @@
     {
       "category": "permanent_resident",
       "label": "Permanent Residents",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
+      "total": 12931880,
+      "top10": [
+        {
+          "country": "Cameroon",
+          "count": 5318739
+        },
+        {
+          "country": "Algeria",
+          "count": 1201723
+        },
+        {
+          "country": "Morocco",
+          "count": 1159441
+        },
+        {
+          "country": "France",
+          "count": 867911
+        },
+        {
+          "country": "Ivory Coast, Republic of",
+          "count": 772219
+        },
+        {
+          "country": "Haiti",
+          "count": 743288
+        },
+        {
+          "country": "Congo, Democratic Republic of the",
+          "count": 511845
+        },
+        {
+          "country": "Tunisia",
+          "count": 367193
+        },
+        {
+          "country": "Burundi",
+          "count": 235894
+        },
+        {
+          "country": "Benin, Republic of",
+          "count": 178033
+        }
+      ],
+      "non_top_10": 1575594,
       "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
       "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
       "is_estimated": true
@@ -128,7 +210,7 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-04-10T12:00:02.280924",
+    "generated_at": "2026-04-11T11:41:23.952034",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -137,12 +219,8 @@
         "error": "Missing asylum claimant XLSX resources"
       },
       {
-        "dataset_key": "population_quarterly",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
-      },
-      {
         "dataset_key": "status_breakdown_census",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=60)"
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
       }
     ],
     "sources": [
@@ -154,7 +232,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-04-10 12:00:02.277000",
+        "loaded_at": "2026-04-11 11:41:23.948000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -165,7 +243,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-10 11:59:44.452000",
+        "loaded_at": "2026-04-11 11:41:19.963000",
         "notes": null
       },
       {
@@ -176,7 +254,7 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-10 11:57:10.229000",
+        "loaded_at": "2026-04-11 11:35:11.558000",
         "notes": null
       },
       {
@@ -187,7 +265,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-10 12:00:01.800000",
+        "loaded_at": "2026-04-11 11:41:23.749000",
         "notes": null
       },
       {
@@ -195,11 +273,11 @@
         "source_family": "statcan",
         "source_id": "17-10-0009-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-04-10 11:57:09.448000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
+        "reference_period": "1946-01-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-04-11 11:35:11.209000",
+        "notes": null
       },
       {
         "dataset_key": "status_breakdown_census",
@@ -209,8 +287,8 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-04-10 11:58:10.373000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=60)"
+        "loaded_at": "2026-04-11 11:40:11.826000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
       },
       {
         "dataset_key": "study_permits_monthly",
@@ -220,7 +298,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-10 11:59:53.709000",
+        "loaded_at": "2026-04-11 11:41:21.398000",
         "notes": null
       },
       {
@@ -231,7 +309,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-10 11:59:59.653000",
+        "loaded_at": "2026-04-11 11:41:23.017000",
         "notes": null
       }
     ]
