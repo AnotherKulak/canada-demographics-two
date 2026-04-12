@@ -4,21 +4,21 @@
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 0,
+        "count": 27042125,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 0,
+        "count": 6101105,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 0,
+        "count": 2260400,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
@@ -30,28 +30,28 @@
         "source": "Statistics Canada 17-10-0121-01"
       }
     ],
-    "total": 2676441
+    "total": 38080071
   },
   "estimated_latest": {
     "rows": [
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 12931880,
+        "count": 29633022,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 12931880,
+        "count": 6685650,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 12931880,
+        "count": 2476968,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
@@ -67,7 +67,28 @@
     "reconciles_to_population_total": 41472081,
     "ref_date": "2026-01-01"
   },
-  "census_snapshots": [],
+  "census_snapshots": [
+    {
+      "year": 2021,
+      "status": "canadian_born",
+      "count": 27042125
+    },
+    {
+      "year": 2021,
+      "status": "naturalized",
+      "count": 6101105
+    },
+    {
+      "year": 2021,
+      "status": "non_permanent_resident",
+      "count": 924850
+    },
+    {
+      "year": 2021,
+      "status": "permanent_resident",
+      "count": 2260400
+    }
+  ],
   "latest_census_year": 2021,
   "source_dates": {
     "population_current": "2026-01-01",
@@ -80,15 +101,10 @@
     "estimated_definition": "Estimated uses a common-date snapshot anchored to the latest total population and temporary resident total."
   },
   "freshness": {
-    "generated_at": "2026-04-11T11:41:23.952034",
-    "latest_source_reference": "1946-01-01 to 2026-01-01",
-    "stale": true,
-    "failed_sources": [
-      {
-        "dataset_key": "status_breakdown_census",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
-      }
-    ],
+    "generated_at": "2026-04-12T11:28:29.888948",
+    "latest_source_reference": "2021 to 2021",
+    "stale": false,
+    "failed_sources": [],
     "sources": [
       {
         "dataset_key": "npr_by_type_quarterly",
@@ -98,7 +114,7 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-11 11:35:11.558000",
+        "loaded_at": "2026-04-12 11:26:25.559000",
         "notes": null
       },
       {
@@ -109,7 +125,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-11 11:35:11.209000",
+        "loaded_at": "2026-04-12 11:26:24.834000",
         "notes": null
       },
       {
@@ -117,11 +133,11 @@
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-04-11 11:40:11.826000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Read timed out. (read timeout=300)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-04-12 11:27:59.168000",
+        "notes": null
       }
     ]
   }
