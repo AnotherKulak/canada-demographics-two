@@ -210,7 +210,7 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-04-12T11:28:29.888948",
+    "generated_at": "2026-04-19T11:29:15.088071",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -228,7 +228,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-04-12 11:28:29.886000",
+        "loaded_at": "2026-04-19 11:29:15.085000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -239,7 +239,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-12 11:28:16.548000",
+        "loaded_at": "2026-04-19 11:29:05.066000",
         "notes": null
       },
       {
@@ -250,7 +250,7 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-12 11:26:25.559000",
+        "loaded_at": "2026-04-19 11:27:14.049000",
         "notes": null
       },
       {
@@ -261,7 +261,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-12 11:28:29.464000",
+        "loaded_at": "2026-04-19 11:29:14.679000",
         "notes": null
       },
       {
@@ -272,7 +272,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-12 11:26:24.834000",
+        "loaded_at": "2026-04-19 11:27:13.339000",
         "notes": null
       },
       {
@@ -283,7 +283,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-12 11:27:59.168000",
+        "loaded_at": "2026-04-19 11:28:47.631000",
         "notes": null
       },
       {
@@ -294,7 +294,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-12 11:28:19.385000",
+        "loaded_at": "2026-04-19 11:29:08.746000",
         "notes": null
       },
       {
@@ -305,7 +305,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-12 11:28:28.146000",
+        "loaded_at": "2026-04-19 11:29:13.533000",
         "notes": null
       }
     ]
