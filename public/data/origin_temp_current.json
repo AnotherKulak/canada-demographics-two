@@ -4,43 +4,43 @@
     "top10": [
       {
         "country": "India",
-        "count": 99695
+        "count": 99480
       },
       {
         "country": "China",
-        "count": 51885
+        "count": 51770
       },
       {
         "country": "Nigeria",
-        "count": 27820
+        "count": 27760
       },
       {
         "country": "Philippines",
-        "count": 21195
+        "count": 21145
       },
       {
         "country": "France",
-        "count": 13845
+        "count": 13815
       },
       {
         "country": "Vietnam",
-        "count": 10410
+        "count": 10395
       },
       {
         "country": "Iran",
-        "count": 9615
+        "count": 9595
       },
       {
         "country": "South Korea",
-        "count": 9310
+        "count": 9290
       },
       {
         "country": "United States",
-        "count": 8825
+        "count": 8805
       },
       {
         "country": "Mexico",
-        "count": 8355
+        "count": 8335
       }
     ]
   },
@@ -49,43 +49,43 @@
     "top10": [
       {
         "country": "India",
-        "count": 29125
+        "count": 29085
       },
       {
         "country": "Haiti",
-        "count": 22300
+        "count": 22265
       },
       {
         "country": "Mexico",
-        "count": 14765
+        "count": 14735
       },
       {
         "country": "Nigeria",
-        "count": 10960
+        "count": 10935
       },
       {
         "country": "Iran",
-        "count": 8445
+        "count": 8440
       },
       {
         "country": "Bangladesh",
-        "count": 6170
+        "count": 6155
       },
       {
         "country": "China",
-        "count": 5810
+        "count": 5805
       },
       {
         "country": "Congo, Democratic Republic of the",
-        "count": 5050
+        "count": 5040
       },
       {
         "country": "Ghana",
-        "count": 4895
+        "count": 4885
       },
       {
         "country": "Pakistan",
-        "count": 4890
+        "count": 4885
       }
     ]
   },
@@ -97,7 +97,7 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-04-19T11:29:15.088071",
+    "generated_at": "2026-04-26T11:33:53.024249",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -115,7 +115,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-04-19 11:29:15.085000",
+        "loaded_at": "2026-04-26 11:33:53.019000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -126,7 +126,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:08.746000",
+        "loaded_at": "2026-04-26 11:33:50.630000",
         "notes": null
       },
       {
@@ -137,7 +137,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:13.533000",
+        "loaded_at": "2026-04-26 11:33:52.174000",
         "notes": null
       }
     ]

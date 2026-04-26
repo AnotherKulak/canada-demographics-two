@@ -15,7 +15,7 @@
         },
         {
           "country": "Non-top-10 Temporary Residents",
-          "count": 1070394
+          "count": 1070325
         },
         {
           "country": "Cameroon",
@@ -23,15 +23,15 @@
         },
         {
           "country": "India",
-          "count": 975807
+          "count": 975903
         },
         {
           "country": "China",
-          "count": 589187
+          "count": 589203
         },
         {
           "country": "Philippines",
-          "count": 442935
+          "count": 442917
         },
         {
           "country": "Non-top-10 Permanent Residents",
@@ -39,14 +39,14 @@
         },
         {
           "country": "Algeria",
-          "count": 282776
+          "count": 282705
         },
         {
           "country": "United Kingdom",
           "count": 282703
         }
       ],
-      "non_top_10": 2183399,
+      "non_top_10": 2183445,
       "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
@@ -160,46 +160,46 @@
       "top10": [
         {
           "country": "India",
-          "count": 590476
+          "count": 590572
         },
         {
           "country": "China",
-          "count": 264458
+          "count": 264474
         },
         {
           "country": "Nigeria",
-          "count": 177757
+          "count": 177748
         },
         {
           "country": "Haiti",
-          "count": 114020
+          "count": 114058
         },
         {
           "country": "Mexico",
-          "count": 105976
+          "count": 105974
         },
         {
           "country": "Philippines",
-          "count": 98940
+          "count": 98922
         },
         {
           "country": "Iran",
-          "count": 82782
+          "count": 82845
         },
         {
           "country": "France",
-          "count": 63691
+          "count": 63690
         },
         {
           "country": "Bangladesh",
-          "count": 55349
+          "count": 55306
         },
         {
           "country": "Algeria",
-          "count": 52598
+          "count": 52527
         }
       ],
-      "non_top_10": 1070394,
+      "non_top_10": 1070325,
       "source_period": "Study 2025, work 2025, asylum n/a",
       "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
       "is_estimated": true
@@ -210,7 +210,7 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-04-19T11:29:15.088071",
+    "generated_at": "2026-04-26T11:33:53.024249",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -228,7 +228,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-04-19 11:29:15.085000",
+        "loaded_at": "2026-04-26 11:33:53.019000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -239,7 +239,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:05.066000",
+        "loaded_at": "2026-04-26 11:33:49.395000",
         "notes": null
       },
       {
@@ -250,7 +250,7 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:27:14.049000",
+        "loaded_at": "2026-04-26 11:32:21.760000",
         "notes": null
       },
       {
@@ -261,7 +261,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:14.679000",
+        "loaded_at": "2026-04-26 11:33:52.793000",
         "notes": null
       },
       {
@@ -272,7 +272,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:27:13.339000",
+        "loaded_at": "2026-04-26 11:32:21.349000",
         "notes": null
       },
       {
@@ -283,7 +283,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-04-19 11:28:47.631000",
+        "loaded_at": "2026-04-26 11:33:32.346000",
         "notes": null
       },
       {
@@ -294,7 +294,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:08.746000",
+        "loaded_at": "2026-04-26 11:33:50.630000",
         "notes": null
       },
       {
@@ -305,7 +305,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:13.533000",
+        "loaded_at": "2026-04-26 11:33:52.174000",
         "notes": null
       }
     ]

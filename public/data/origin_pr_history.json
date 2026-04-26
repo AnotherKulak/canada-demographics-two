@@ -162,12 +162,12 @@
     },
     {
       "year": 2018,
-      "country": "Cameroon",
+      "country": "Burundi",
       "count": 295
     },
     {
       "year": 2018,
-      "country": "Burundi",
+      "country": "Cameroon",
       "count": 295
     },
     {
@@ -272,12 +272,12 @@
     },
     {
       "year": 2020,
-      "country": "Burundi",
+      "country": "Tunisia",
       "count": 335
     },
     {
       "year": 2020,
-      "country": "Tunisia",
+      "country": "Burundi",
       "count": 335
     },
     {
@@ -553,59 +553,59 @@
     {
       "year": 2026,
       "country": "Cameroon",
-      "count": 650
+      "count": 1300
     },
     {
       "year": 2026,
       "country": "France",
-      "count": 240
+      "count": 440
     },
     {
       "year": 2026,
       "country": "Morocco",
-      "count": 175
+      "count": 325
     },
     {
       "year": 2026,
       "country": "Algeria",
-      "count": 165
+      "count": 285
     },
     {
       "year": 2026,
       "country": "Ivory Coast, Republic of",
-      "count": 140
+      "count": 235
     },
     {
       "year": 2026,
       "country": "Haiti",
-      "count": 115
+      "count": 230
     },
     {
       "year": 2026,
       "country": "Congo, Democratic Republic of the",
-      "count": 115
+      "count": 180
     },
     {
       "year": 2026,
       "country": "Burundi",
-      "count": 85
+      "count": 130
     },
     {
       "year": 2026,
       "country": "Tunisia",
-      "count": 60
+      "count": 90
     },
     {
       "year": 2026,
       "country": "Lebanon",
-      "count": 5
+      "count": 10
     }
   ],
   "note": "Top 10 countries by all-time cumulative admissions",
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-04-19T11:29:15.088071",
+    "generated_at": "2026-04-26T11:33:53.024249",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-04-19 11:29:14.679000",
+        "loaded_at": "2026-04-26 11:33:52.793000",
         "notes": null
       }
     ]
