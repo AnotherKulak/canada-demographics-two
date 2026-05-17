@@ -1,93 +1,11 @@
 {
   "study_permits": {
-    "ref_year": 2025,
-    "top10": [
-      {
-        "country": "India",
-        "count": 99480
-      },
-      {
-        "country": "China",
-        "count": 51770
-      },
-      {
-        "country": "Nigeria",
-        "count": 27760
-      },
-      {
-        "country": "Philippines",
-        "count": 21145
-      },
-      {
-        "country": "France",
-        "count": 13815
-      },
-      {
-        "country": "Vietnam",
-        "count": 10395
-      },
-      {
-        "country": "Iran",
-        "count": 9595
-      },
-      {
-        "country": "South Korea",
-        "count": 9290
-      },
-      {
-        "country": "United States",
-        "count": 8805
-      },
-      {
-        "country": "Mexico",
-        "count": 8335
-      }
-    ]
+    "ref_year": null,
+    "top10": []
   },
   "work_permits": {
-    "ref_year": 2025,
-    "top10": [
-      {
-        "country": "India",
-        "count": 29085
-      },
-      {
-        "country": "Haiti",
-        "count": 22265
-      },
-      {
-        "country": "Mexico",
-        "count": 14735
-      },
-      {
-        "country": "Nigeria",
-        "count": 10935
-      },
-      {
-        "country": "Iran",
-        "count": 8440
-      },
-      {
-        "country": "Bangladesh",
-        "count": 6155
-      },
-      {
-        "country": "China",
-        "count": 5805
-      },
-      {
-        "country": "Congo, Democratic Republic of the",
-        "count": 5040
-      },
-      {
-        "country": "Ghana",
-        "count": 4885
-      },
-      {
-        "country": "Pakistan",
-        "count": 4885
-      }
-    ]
+    "ref_year": null,
+    "top10": []
   },
   "asylum_claimants": {
     "ref_year": null,
@@ -97,13 +15,21 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-05-10T11:41:43.661433",
-    "latest_source_reference": "2015 to 2026",
+    "generated_at": "2026-05-17T11:59:00.128690",
+    "latest_source_reference": null,
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
-        "error": "Missing asylum claimant XLSX resources"
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+      },
+      {
+        "dataset_key": "study_permits_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+      },
+      {
+        "dataset_key": "work_permits_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ],
     "sources": [
@@ -115,30 +41,30 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-05-10 11:41:43.658000",
-        "notes": "Missing asylum claimant XLSX resources"
+        "loaded_at": "2026-05-17 11:59:00.124000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
         "dataset_key": "study_permits_monthly",
         "source_family": "ircc",
-        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
-        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-05-10 11:41:41.529000",
-        "notes": null
+        "source_id": "IRCC-90115b00",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-17 11:55:59.735000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
-        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-05-10 11:41:42.861000",
-        "notes": null
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-17 11:56:59.867000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ]
   }

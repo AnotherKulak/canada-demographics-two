@@ -4,62 +4,62 @@
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 0,
+        "count": 27042125,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 0,
+        "count": 6101105,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 0,
+        "count": 2260400,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "non_permanent_resident",
         "label": "Temporary Residents",
-        "count": 0,
-        "ref_date": null,
+        "count": 2676441,
+        "ref_date": "2026-01-01",
         "source": "Statistics Canada 17-10-0121-01"
       }
     ],
-    "total": 0
+    "total": 38080071
   },
   "estimated_latest": {
     "rows": [
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 13824027,
+        "count": 29633022,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 13824027,
+        "count": 6685650,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 13824027,
+        "count": 2476968,
         "ref_date": "2026-01-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "non_permanent_resident",
         "label": "Temporary Residents",
-        "count": 0,
-        "ref_date": null,
+        "count": 2676441,
+        "ref_date": "2026-01-01",
         "source": "Statistics Canada 17-10-0121-01"
       }
     ],
@@ -67,11 +67,32 @@
     "reconciles_to_population_total": 41472081,
     "ref_date": "2026-01-01"
   },
-  "census_snapshots": [],
+  "census_snapshots": [
+    {
+      "year": 2021,
+      "status": "canadian_born",
+      "count": 27042125
+    },
+    {
+      "year": 2021,
+      "status": "naturalized",
+      "count": 6101105
+    },
+    {
+      "year": 2021,
+      "status": "non_permanent_resident",
+      "count": 924850
+    },
+    {
+      "year": 2021,
+      "status": "permanent_resident",
+      "count": 2260400
+    }
+  ],
   "latest_census_year": 2021,
   "source_dates": {
     "population_current": "2026-01-01",
-    "npr_current": null,
+    "npr_current": "2026-01-01",
     "census_status": "2021"
   },
   "methodology": {
@@ -80,30 +101,21 @@
     "estimated_definition": "Estimated uses a common-date snapshot anchored to the latest total population and temporary resident total."
   },
   "freshness": {
-    "generated_at": "2026-05-10T11:41:43.661433",
-    "latest_source_reference": "1946-01-01 to 2026-01-01",
-    "stale": true,
-    "failed_sources": [
-      {
-        "dataset_key": "npr_by_type_quarterly",
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      },
-      {
-        "dataset_key": "status_breakdown_census",
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      }
-    ],
+    "generated_at": "2026-05-17T11:59:00.128690",
+    "latest_source_reference": "2021 to 2021",
+    "stale": false,
+    "failed_sources": [],
     "sources": [
       {
         "dataset_key": "npr_by_type_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-10 11:41:40.287000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021-07-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-05-17 11:53:32.114000",
+        "notes": null
       },
       {
         "dataset_key": "population_quarterly",
@@ -113,7 +125,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-05-10 11:41:40.037000",
+        "loaded_at": "2026-05-17 11:53:31.648000",
         "notes": null
       },
       {
@@ -121,11 +133,11 @@
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-10 11:41:40.511000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-05-17 11:54:42.754000",
+        "notes": null
       }
     ]
   }

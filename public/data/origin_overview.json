@@ -3,122 +3,122 @@
     {
       "category": "foreign_born_total",
       "label": "Foreign-born Total",
-      "total": 27648054,
+      "total": 11839059,
       "top10": [
         {
-          "country": "Non-top-10 Naturalized",
-          "count": 13824027
+          "country": "Non-top-10 Temporary Residents",
+          "count": 2676441
         },
         {
-          "country": "Cameroon",
-          "count": 5685669
+          "country": "Non-top-10 Naturalized",
+          "count": 2501284
         },
         {
           "country": "Non-top-10 Permanent Residents",
-          "count": 1684293
+          "count": 2476968
         },
         {
-          "country": "Algeria",
-          "count": 1284628
+          "country": "Asia",
+          "count": 2190036
         },
         {
-          "country": "Morocco",
-          "count": 1239428
+          "country": "India",
+          "count": 385331
         },
         {
-          "country": "France",
-          "count": 927787
+          "country": "Philippines",
+          "count": 343995
         },
         {
-          "country": "Ivory Coast, Republic of",
-          "count": 825492
+          "country": "China",
+          "count": 324729
         },
         {
-          "country": "Haiti",
-          "count": 794566
+          "country": "United Kingdom",
+          "count": 282703
         },
         {
-          "country": "Congo, Democratic Republic of the",
-          "count": 547156
+          "country": "Hong Kong",
+          "count": 151628
         },
         {
-          "country": "Tunisia",
-          "count": 392525
+          "country": "Italy",
+          "count": 137852
         }
       ],
-      "non_top_10": 442483,
-      "source_period": "Naturalized None, PR 2025, Temporary 2025",
+      "non_top_10": 368092,
+      "source_period": "Naturalized 2021, PR n/a, Temporary n/a",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
     },
     {
       "category": "naturalized",
       "label": "Naturalized Citizens",
-      "total": 13824027,
-      "top10": [],
-      "non_top_10": 13824027,
-      "source_period": "None census distribution scaled to current estimated stock",
+      "total": 6685650,
+      "top10": [
+        {
+          "country": "Asia",
+          "count": 2190036
+        },
+        {
+          "country": "India",
+          "count": 385331
+        },
+        {
+          "country": "Philippines",
+          "count": 343995
+        },
+        {
+          "country": "China",
+          "count": 324729
+        },
+        {
+          "country": "United Kingdom",
+          "count": 282703
+        },
+        {
+          "country": "Hong Kong",
+          "count": 151628
+        },
+        {
+          "country": "Italy",
+          "count": 137852
+        },
+        {
+          "country": "Pakistan",
+          "count": 137432
+        },
+        {
+          "country": "Vietnam",
+          "count": 118249
+        },
+        {
+          "country": "United States",
+          "count": 112411
+        }
+      ],
+      "non_top_10": 2501284,
+      "source_period": "2021 census distribution scaled to current estimated stock",
       "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
       "is_estimated": true
     },
     {
       "category": "permanent_resident",
       "label": "Permanent Residents",
-      "total": 13824027,
-      "top10": [
-        {
-          "country": "Cameroon",
-          "count": 5685669
-        },
-        {
-          "country": "Algeria",
-          "count": 1284628
-        },
-        {
-          "country": "Morocco",
-          "count": 1239428
-        },
-        {
-          "country": "France",
-          "count": 927787
-        },
-        {
-          "country": "Ivory Coast, Republic of",
-          "count": 825492
-        },
-        {
-          "country": "Haiti",
-          "count": 794566
-        },
-        {
-          "country": "Congo, Democratic Republic of the",
-          "count": 547156
-        },
-        {
-          "country": "Tunisia",
-          "count": 392525
-        },
-        {
-          "country": "Burundi",
-          "count": 252168
-        },
-        {
-          "country": "Mauritius",
-          "count": 190315
-        }
-      ],
-      "non_top_10": 1684293,
-      "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
+      "total": 2476968,
+      "top10": [],
+      "non_top_10": 2476968,
+      "source_period": "n/a IRCC annual distribution scaled to current estimated stock",
       "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
       "is_estimated": true
     },
     {
       "category": "temporary_resident",
       "label": "Temporary Residents",
-      "total": 0,
+      "total": 2676441,
       "top10": [],
-      "non_top_10": 0,
-      "source_period": "Study 2025, work 2025, asylum n/a",
+      "non_top_10": 2676441,
+      "source_period": "Study n/a, work n/a, asylum n/a",
       "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
       "is_estimated": true
     }
@@ -128,25 +128,25 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-05-10T11:41:43.661433",
-    "latest_source_reference": "2015 to 2026",
+    "generated_at": "2026-05-17T11:59:00.128690",
+    "latest_source_reference": "2021 to 2021",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
-        "error": "Missing asylum claimant XLSX resources"
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
-        "dataset_key": "naturalized_by_country_census",
-        "error": "Expecting value: line 1 column 1 (char 0)"
+        "dataset_key": "permanent_residents_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
-        "dataset_key": "npr_by_type_quarterly",
-        "error": "Expecting value: line 1 column 1 (char 0)"
+        "dataset_key": "study_permits_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
-        "dataset_key": "status_breakdown_census",
-        "error": "Expecting value: line 1 column 1 (char 0)"
+        "dataset_key": "work_permits_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ],
     "sources": [
@@ -158,41 +158,41 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-05-10 11:41:43.658000",
-        "notes": "Missing asylum claimant XLSX resources"
+        "loaded_at": "2026-05-17 11:59:00.124000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
         "dataset_key": "naturalized_by_country_census",
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-10 11:41:40.732000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-05-17 11:54:59.548000",
+        "notes": null
       },
       {
         "dataset_key": "npr_by_type_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-10 11:41:40.287000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021-07-01 to 2026-01-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-05-17 11:53:32.114000",
+        "notes": null
       },
       {
         "dataset_key": "permanent_residents_monthly",
         "source_family": "ircc",
-        "source_id": "f7e5498e-0ad8-4417-85c9-9b8aff9b9eda",
-        "resource_id": "d0640e61-9bd2-4b8c-949f-a4ba50fbebe4",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-05-10 11:41:43.442000",
-        "notes": null
+        "source_id": "IRCC-f7e5498e",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-17 11:58:00.047000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
         "dataset_key": "population_quarterly",
@@ -202,7 +202,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-05-10 11:41:40.037000",
+        "loaded_at": "2026-05-17 11:53:31.648000",
         "notes": null
       },
       {
@@ -210,33 +210,33 @@
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-10 11:41:40.511000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-05-17 11:54:42.754000",
+        "notes": null
       },
       {
         "dataset_key": "study_permits_monthly",
         "source_family": "ircc",
-        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
-        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-05-10 11:41:41.529000",
-        "notes": null
+        "source_id": "IRCC-90115b00",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-17 11:55:59.735000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
-        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-05-10 11:41:42.861000",
-        "notes": null
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-17 11:56:59.867000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ]
   }
