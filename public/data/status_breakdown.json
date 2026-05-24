@@ -101,7 +101,7 @@
     "estimated_definition": "Estimated uses a common-date snapshot anchored to the latest total population and temporary resident total."
   },
   "freshness": {
-    "generated_at": "2026-05-17T11:59:00.128690",
+    "generated_at": "2026-05-24T11:59:05.550015",
     "latest_source_reference": "2021 to 2021",
     "stale": false,
     "failed_sources": [],
@@ -114,7 +114,7 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-05-17 11:53:32.114000",
+        "loaded_at": "2026-05-24 11:57:36.535000",
         "notes": null
       },
       {
@@ -125,7 +125,7 @@
         "reference_period": "1946-01-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-05-17 11:53:31.648000",
+        "loaded_at": "2026-05-24 11:57:36.149000",
         "notes": null
       },
       {
@@ -136,7 +136,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-05-17 11:54:42.754000",
+        "loaded_at": "2026-05-24 11:58:44.783000",
         "notes": null
       }
     ]

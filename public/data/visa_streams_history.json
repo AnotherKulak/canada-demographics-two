@@ -1,6 +1,132 @@
 {
   "data": [
     {
+      "date": "2015-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2015-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 226860,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2015-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 16505,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2016-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2016-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 275405,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2016-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 21055,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2017-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2017-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 327435,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2017-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 38265,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2018-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2018-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 367050,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2018-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 52185,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2019-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2019-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 411855,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2019-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 62885,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2020-01-01",
+      "stream": "annual_asylum_claimants",
+      "count": 0,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2020-01-01",
+      "stream": "annual_study_permit_holders",
+      "count": 271105,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
+      "date": "2020-01-01",
+      "stream": "annual_work_permit_holders",
+      "count": 48055,
+      "cadence": "annual",
+      "source_origin": "ircc"
+    },
+    {
       "date": "2021-07-01",
       "stream": "asylum_no_permit",
       "count": 68316,
@@ -1113,21 +1239,13 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-05-17T11:59:00.128690",
-    "latest_source_reference": "2021-07-01 to 2026-01-01",
+    "generated_at": "2026-05-24T11:59:05.550015",
+    "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
-        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
-      },
-      {
-        "dataset_key": "study_permits_monthly",
-        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
-      },
-      {
-        "dataset_key": "work_permits_monthly",
-        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+        "error": "Missing asylum claimant XLSX resources"
       }
     ],
     "sources": [
@@ -1139,8 +1257,8 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-05-17 11:59:00.124000",
-        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+        "loaded_at": "2026-05-24 11:59:05.547000",
+        "notes": "Missing asylum claimant XLSX resources"
       },
       {
         "dataset_key": "npr_by_type_quarterly",
@@ -1150,30 +1268,30 @@
         "reference_period": "2021-07-01 to 2026-01-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-05-17 11:53:32.114000",
+        "loaded_at": "2026-05-24 11:57:36.535000",
         "notes": null
       },
       {
         "dataset_key": "study_permits_monthly",
         "source_family": "ircc",
-        "source_id": "IRCC-90115b00",
-        "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-17 11:55:59.735000",
-        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
+        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-05-24 11:59:03.145000",
+        "notes": null
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "IRCC-360024f2",
-        "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-05-17 11:56:59.867000",
-        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
+        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
+        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-05-24 11:59:04.796000",
+        "notes": null
       }
     ]
   }

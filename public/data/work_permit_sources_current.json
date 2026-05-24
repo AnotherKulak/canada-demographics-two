@@ -7,10 +7,27 @@
   "frequency": "Monthly aggregated to annual",
   "note": "This component refreshes automatically when an IRCC program-level work permit resource is available.",
   "freshness": {
-    "generated_at": "2026-05-17T11:59:00.128690",
+    "generated_at": "2026-05-24T11:59:05.550015",
     "latest_source_reference": null,
-    "stale": false,
-    "failed_sources": [],
-    "sources": []
+    "stale": true,
+    "failed_sources": [
+      {
+        "dataset_key": "work_permit_programs_monthly",
+        "error": "Work permit program resource does not expose a recognizable program column"
+      }
+    ],
+    "sources": [
+      {
+        "dataset_key": "work_permit_programs_monthly",
+        "source_family": "ircc",
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-05-24 11:59:04.798000",
+        "notes": "Work permit program resource does not expose a recognizable program column"
+      }
+    ]
   }
 }
