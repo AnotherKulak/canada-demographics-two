@@ -45,7 +45,7 @@
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-05-31T12:09:53.731432",
+    "generated_at": "2026-06-07T12:16:41.389588",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -58,7 +58,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-05-31 12:09:53.505000",
+        "loaded_at": "2026-06-07 12:16:41.197000",
         "notes": null
       }
     ]
