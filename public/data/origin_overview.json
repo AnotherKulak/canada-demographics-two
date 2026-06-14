@@ -3,204 +3,40 @@
     {
       "category": "foreign_born_total",
       "label": "Foreign-born Total",
-      "total": 11839059,
-      "top10": [
-        {
-          "country": "Non-top-10 Naturalized",
-          "count": 2501284
-        },
-        {
-          "country": "Asia",
-          "count": 2190036
-        },
-        {
-          "country": "Non-top-10 Temporary Residents",
-          "count": 1070200
-        },
-        {
-          "country": "Cameroon",
-          "count": 1018750
-        },
-        {
-          "country": "India",
-          "count": 975944
-        },
-        {
-          "country": "China",
-          "count": 589323
-        },
-        {
-          "country": "Philippines",
-          "count": 442898
-        },
-        {
-          "country": "Non-top-10 Permanent Residents",
-          "count": 301788
-        },
-        {
-          "country": "United Kingdom",
-          "count": 282703
-        },
-        {
-          "country": "Algeria",
-          "count": 282678
-        }
-      ],
-      "non_top_10": 2183455,
-      "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
+      "total": 0,
+      "top10": [],
+      "non_top_10": 0,
+      "source_period": "Naturalized None, PR n/a, Temporary n/a",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
     },
     {
       "category": "naturalized",
       "label": "Naturalized Citizens",
-      "total": 6685650,
-      "top10": [
-        {
-          "country": "Asia",
-          "count": 2190036
-        },
-        {
-          "country": "India",
-          "count": 385331
-        },
-        {
-          "country": "Philippines",
-          "count": 343995
-        },
-        {
-          "country": "China",
-          "count": 324729
-        },
-        {
-          "country": "United Kingdom",
-          "count": 282703
-        },
-        {
-          "country": "Hong Kong",
-          "count": 151628
-        },
-        {
-          "country": "Italy",
-          "count": 137852
-        },
-        {
-          "country": "Pakistan",
-          "count": 137432
-        },
-        {
-          "country": "Vietnam",
-          "count": 118249
-        },
-        {
-          "country": "United States",
-          "count": 112411
-        }
-      ],
-      "non_top_10": 2501284,
-      "source_period": "2021 census distribution scaled to current estimated stock",
+      "total": 0,
+      "top10": [],
+      "non_top_10": 0,
+      "source_period": "None census distribution scaled to current estimated stock",
       "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
       "is_estimated": true
     },
     {
       "category": "permanent_resident",
       "label": "Permanent Residents",
-      "total": 2476968,
-      "top10": [
-        {
-          "country": "Cameroon",
-          "count": 1018750
-        },
-        {
-          "country": "Algeria",
-          "count": 230178
-        },
-        {
-          "country": "Morocco",
-          "count": 222079
-        },
-        {
-          "country": "France",
-          "count": 166239
-        },
-        {
-          "country": "Ivory Coast, Republic of",
-          "count": 147911
-        },
-        {
-          "country": "Haiti",
-          "count": 142369
-        },
-        {
-          "country": "Congo, Democratic Republic of the",
-          "count": 98039
-        },
-        {
-          "country": "Tunisia",
-          "count": 70332
-        },
-        {
-          "country": "Burundi",
-          "count": 45183
-        },
-        {
-          "country": "Mauritius",
-          "count": 34100
-        }
-      ],
-      "non_top_10": 301788,
-      "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
+      "total": 0,
+      "top10": [],
+      "non_top_10": 0,
+      "source_period": "n/a IRCC annual distribution scaled to current estimated stock",
       "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
       "is_estimated": true
     },
     {
       "category": "temporary_resident",
       "label": "Temporary Residents",
-      "total": 2676441,
-      "top10": [
-        {
-          "country": "India",
-          "count": 590613
-        },
-        {
-          "country": "China",
-          "count": 264594
-        },
-        {
-          "country": "Nigeria",
-          "count": 177722
-        },
-        {
-          "country": "Haiti",
-          "count": 114156
-        },
-        {
-          "country": "Mexico",
-          "count": 105805
-        },
-        {
-          "country": "Philippines",
-          "count": 98903
-        },
-        {
-          "country": "Iran",
-          "count": 82868
-        },
-        {
-          "country": "France",
-          "count": 63727
-        },
-        {
-          "country": "Bangladesh",
-          "count": 55353
-        },
-        {
-          "country": "Algeria",
-          "count": 52500
-        }
-      ],
-      "non_top_10": 1070200,
-      "source_period": "Study 2025, work 2025, asylum n/a",
+      "total": 0,
+      "top10": [],
+      "non_top_10": 0,
+      "source_period": "Study n/a, work n/a, asylum n/a",
       "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
       "is_estimated": true
     }
@@ -210,13 +46,41 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-06-07T12:16:41.389588",
-    "latest_source_reference": "2015 to 2026",
+    "generated_at": "2026-06-14T13:08:07.661825",
+    "latest_source_reference": null,
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
         "error": "Missing asylum claimant XLSX resources"
+      },
+      {
+        "dataset_key": "naturalized_by_country_census",
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca38756d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+      },
+      {
+        "dataset_key": "npr_by_type_quarterly",
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100121/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3837850>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+      },
+      {
+        "dataset_key": "permanent_residents_monthly",
+        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-French-speaking-PR-Citz.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684b90>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
+      },
+      {
+        "dataset_key": "population_quarterly",
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100009/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca83232d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+      },
+      {
+        "dataset_key": "status_breakdown_census",
+        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3d06590>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+      },
+      {
+        "dataset_key": "study_permits_monthly",
+        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Study-IS_CITZ.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4cb5d2d4d0>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
+      },
+      {
+        "dataset_key": "work_permits_monthly",
+        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Work-HC_citizenship.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684890>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
       }
     ],
     "sources": [
@@ -228,7 +92,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-06-07 12:16:41.386000",
+        "loaded_at": "2026-06-14 13:08:07.659000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -236,77 +100,77 @@
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": "2021 to 2021",
-        "cadence": "Census (every 5 years)",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:16:38.434000",
-        "notes": null
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 13:01:24.025000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca38756d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
       },
       {
         "dataset_key": "npr_by_type_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": "2021-07-01 to 2026-01-01",
-        "cadence": "Quarterly",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:15:12.050000",
-        "notes": null
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 12:59:23.924000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100121/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3837850>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
       },
       {
         "dataset_key": "permanent_residents_monthly",
         "source_family": "ircc",
-        "source_id": "f7e5498e-0ad8-4417-85c9-9b8aff9b9eda",
-        "resource_id": "d0640e61-9bd2-4b8c-949f-a4ba50fbebe4",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:16:41.197000",
-        "notes": null
+        "source_id": "IRCC-f7e5498e",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 13:08:07.417000",
+        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-French-speaking-PR-Citz.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684b90>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
       },
       {
         "dataset_key": "population_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0009-01",
         "resource_id": null,
-        "reference_period": "1946-01-01 to 2026-01-01",
-        "cadence": "Quarterly",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:15:11.624000",
-        "notes": null
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 12:58:23.851000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100009/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca83232d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
       },
       {
         "dataset_key": "status_breakdown_census",
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": "2021 to 2021",
-        "cadence": "Census (every 5 years)",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:16:21.551000",
-        "notes": null
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 13:00:24.011000",
+        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3d06590>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
       },
       {
         "dataset_key": "study_permits_monthly",
         "source_family": "ircc",
-        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
-        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:16:39.331000",
-        "notes": null
+        "source_id": "IRCC-90115b00",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 13:03:37.081000",
+        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Study-IS_CITZ.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4cb5d2d4d0>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
-        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-06-07 12:16:40.603000",
-        "notes": null
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-06-14 13:05:52.249000",
+        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Work-HC_citizenship.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684890>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
       }
     ]
   }
