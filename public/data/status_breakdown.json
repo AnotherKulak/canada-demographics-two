@@ -4,74 +4,95 @@
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 0,
+        "count": 27042125,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 0,
+        "count": 6101105,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 0,
+        "count": 2260400,
         "ref_date": "2021-01-01",
         "source": "Statistics Canada 98-10-0302-01"
       },
       {
         "status": "non_permanent_resident",
         "label": "Temporary Residents",
-        "count": 0,
-        "ref_date": null,
+        "count": 2558562,
+        "ref_date": "2026-04-01",
         "source": "Statistics Canada 17-10-0121-01"
       }
     ],
-    "total": 0
+    "total": 37962192
   },
   "estimated_latest": {
     "rows": [
       {
         "status": "canadian_born",
         "label": "Canadian-born Citizens",
-        "count": 0,
-        "ref_date": null,
+        "count": 29681031,
+        "ref_date": "2026-04-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "naturalized",
         "label": "Naturalized Citizens",
-        "count": 0,
-        "ref_date": null,
+        "count": 6696482,
+        "ref_date": "2026-04-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "permanent_resident",
         "label": "Permanent Residents",
-        "count": 0,
-        "ref_date": null,
+        "count": 2480981,
+        "ref_date": "2026-04-01",
         "source": "Estimated from latest population + census resident shares"
       },
       {
         "status": "non_permanent_resident",
         "label": "Temporary Residents",
-        "count": 0,
-        "ref_date": null,
+        "count": 2558562,
+        "ref_date": "2026-04-01",
         "source": "Statistics Canada 17-10-0121-01"
       }
     ],
-    "total": 0,
-    "reconciles_to_population_total": 0,
-    "ref_date": null
+    "total": 41417056,
+    "reconciles_to_population_total": 41417056,
+    "ref_date": "2026-04-01"
   },
-  "census_snapshots": [],
+  "census_snapshots": [
+    {
+      "year": 2021,
+      "status": "canadian_born",
+      "count": 27042125
+    },
+    {
+      "year": 2021,
+      "status": "naturalized",
+      "count": 6101105
+    },
+    {
+      "year": 2021,
+      "status": "non_permanent_resident",
+      "count": 924850
+    },
+    {
+      "year": 2021,
+      "status": "permanent_resident",
+      "count": 2260400
+    }
+  ],
   "latest_census_year": 2021,
   "source_dates": {
-    "population_current": null,
-    "npr_current": null,
+    "population_current": "2026-04-01",
+    "npr_current": "2026-04-01",
     "census_status": "2021"
   },
   "methodology": {
@@ -80,56 +101,43 @@
     "estimated_definition": "Estimated uses a common-date snapshot anchored to the latest total population and temporary resident total."
   },
   "freshness": {
-    "generated_at": "2026-06-14T13:08:07.661825",
-    "latest_source_reference": null,
-    "stale": true,
-    "failed_sources": [
-      {
-        "dataset_key": "npr_by_type_quarterly",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100121/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3837850>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
-      },
-      {
-        "dataset_key": "population_quarterly",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100009/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca83232d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
-      },
-      {
-        "dataset_key": "status_breakdown_census",
-        "error": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3d06590>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
-      }
-    ],
+    "generated_at": "2026-06-21T13:02:02.613817",
+    "latest_source_reference": "2021 to 2021",
+    "stale": false,
+    "failed_sources": [],
     "sources": [
       {
         "dataset_key": "npr_by_type_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 12:59:23.924000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100121/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3837850>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+        "reference_period": "2021-07-01 to 2026-04-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:00:30.531000",
+        "notes": null
       },
       {
         "dataset_key": "population_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0009-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 12:58:23.851000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/17100009/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca83232d0>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+        "reference_period": "1946-01-01 to 2026-04-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:00:30.137000",
+        "notes": null
       },
       {
         "dataset_key": "status_breakdown_census",
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 13:00:24.011000",
-        "notes": "HTTPSConnectionPool(host='www150.statcan.gc.ca', port=443): Max retries exceeded with url: /t1/wds/rest/getFullTableDownloadCSV/98100302/en (Caused by ConnectTimeoutError(<HTTPSConnection(host='www150.statcan.gc.ca', port=443) at 0x7f4ca3d06590>, 'Connection to www150.statcan.gc.ca timed out. (connect timeout=60)'))"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:01:41.276000",
+        "notes": null
       }
     ]
   }

@@ -1,53 +1,53 @@
 {
-  "ref_date": "2026-01-01",
-  "total_npr": 2676441,
+  "ref_date": "2026-04-01",
+  "total_npr": 2558562,
   "streams": [
     {
       "stream": "permit_work_only",
-      "count": 1375566,
-      "pct": 51.4
+      "count": 1296046,
+      "pct": 50.7
     },
     {
       "stream": "permit_study_only",
-      "count": 431537,
-      "pct": 16.1
+      "count": 394220,
+      "pct": 15.4
     },
     {
       "stream": "asylum_work_permit_only",
-      "count": 354518,
-      "pct": 13.2
+      "count": 369555,
+      "pct": 14.4
     },
     {
       "stream": "permit_work_and_study",
-      "count": 223265,
-      "pct": 8.3
+      "count": 223571,
+      "pct": 8.7
     },
     {
       "stream": "asylum_no_permit",
-      "count": 138080,
-      "pct": 5.2
+      "count": 129552,
+      "pct": 5.1
     },
     {
       "stream": "permit_other",
-      "count": 127584,
-      "pct": 4.8
+      "count": 119246,
+      "pct": 4.7
     },
     {
       "stream": "asylum_work_and_study",
-      "count": 23523,
+      "count": 24012,
       "pct": 0.9
     },
     {
       "stream": "asylum_study_permit_only",
-      "count": 2368,
+      "count": 2360,
       "pct": 0.1
     }
   ],
   "source": "Statistics Canada 17-10-0121-01",
   "frequency": "Quarterly",
   "freshness": {
-    "generated_at": "2026-06-07T12:16:41.389588",
-    "latest_source_reference": "2021-07-01 to 2026-01-01",
+    "generated_at": "2026-06-21T13:02:02.613817",
+    "latest_source_reference": "2021-07-01 to 2026-04-01",
     "stale": false,
     "failed_sources": [],
     "sources": [
@@ -56,10 +56,10 @@
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": "2021-07-01 to 2026-01-01",
+        "reference_period": "2021-07-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-06-07 12:15:12.050000",
+        "loaded_at": "2026-06-21 13:00:30.531000",
         "notes": null
       }
     ]

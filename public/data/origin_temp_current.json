@@ -1,11 +1,93 @@
 {
   "study_permits": {
-    "ref_year": null,
-    "top10": []
+    "ref_year": 2025,
+    "top10": [
+      {
+        "country": "India",
+        "count": 99190
+      },
+      {
+        "country": "China",
+        "count": 51665
+      },
+      {
+        "country": "Nigeria",
+        "count": 27700
+      },
+      {
+        "country": "Philippines",
+        "count": 21095
+      },
+      {
+        "country": "France",
+        "count": 13795
+      },
+      {
+        "country": "Vietnam",
+        "count": 10355
+      },
+      {
+        "country": "Iran",
+        "count": 9570
+      },
+      {
+        "country": "South Korea",
+        "count": 9275
+      },
+      {
+        "country": "United States",
+        "count": 8795
+      },
+      {
+        "country": "Mexico",
+        "count": 8305
+      }
+    ]
   },
   "work_permits": {
-    "ref_year": null,
-    "top10": []
+    "ref_year": 2025,
+    "top10": [
+      {
+        "country": "India",
+        "count": 29015
+      },
+      {
+        "country": "Haiti",
+        "count": 22235
+      },
+      {
+        "country": "Mexico",
+        "count": 14625
+      },
+      {
+        "country": "Nigeria",
+        "count": 10895
+      },
+      {
+        "country": "Iran",
+        "count": 8435
+      },
+      {
+        "country": "Bangladesh",
+        "count": 6150
+      },
+      {
+        "country": "China",
+        "count": 5795
+      },
+      {
+        "country": "Congo, Democratic Republic of the",
+        "count": 5020
+      },
+      {
+        "country": "Ghana",
+        "count": 4875
+      },
+      {
+        "country": "Pakistan",
+        "count": 4870
+      }
+    ]
   },
   "asylum_claimants": {
     "ref_year": null,
@@ -15,21 +97,13 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-06-14T13:08:07.661825",
-    "latest_source_reference": null,
+    "generated_at": "2026-06-21T13:02:02.613817",
+    "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
         "error": "Missing asylum claimant XLSX resources"
-      },
-      {
-        "dataset_key": "study_permits_monthly",
-        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Study-IS_CITZ.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4cb5d2d4d0>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
-      },
-      {
-        "dataset_key": "work_permits_monthly",
-        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Work-HC_citizenship.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684890>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
       }
     ],
     "sources": [
@@ -41,30 +115,30 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-06-14 13:08:07.659000",
+        "loaded_at": "2026-06-21 13:02:02.610000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
         "dataset_key": "study_permits_monthly",
         "source_family": "ircc",
-        "source_id": "IRCC-90115b00",
-        "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 13:03:37.081000",
-        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Study-IS_CITZ.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4cb5d2d4d0>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
+        "source_id": "90115b00-f9b8-49e8-afa3-b4cff8facaee",
+        "resource_id": "2dc2f5e8-a7db-4986-bc8f-6a971b26b424",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:01:59.300000",
+        "notes": null
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "IRCC-360024f2",
-        "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 13:05:52.249000",
-        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-TR-Work-HC_citizenship.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684890>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
+        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
+        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:02:00.934000",
+        "notes": null
       }
     ]
   }

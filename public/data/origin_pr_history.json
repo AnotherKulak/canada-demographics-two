@@ -1,29 +1,625 @@
 {
-  "data": [],
+  "data": [
+    {
+      "year": 2015,
+      "country": "France",
+      "count": 825
+    },
+    {
+      "year": 2015,
+      "country": "Congo, Democratic Republic of the",
+      "count": 425
+    },
+    {
+      "year": 2015,
+      "country": "Haiti",
+      "count": 245
+    },
+    {
+      "year": 2015,
+      "country": "Cameroon",
+      "count": 170
+    },
+    {
+      "year": 2015,
+      "country": "Burundi",
+      "count": 155
+    },
+    {
+      "year": 2015,
+      "country": "Morocco",
+      "count": 75
+    },
+    {
+      "year": 2015,
+      "country": "Ivory Coast, Republic of",
+      "count": 70
+    },
+    {
+      "year": 2015,
+      "country": "Algeria",
+      "count": 40
+    },
+    {
+      "year": 2015,
+      "country": "Lebanon",
+      "count": 20
+    },
+    {
+      "year": 2015,
+      "country": "Tunisia",
+      "count": 10
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "count": 1235
+    },
+    {
+      "year": 2016,
+      "country": "Congo, Democratic Republic of the",
+      "count": 620
+    },
+    {
+      "year": 2016,
+      "country": "Haiti",
+      "count": 265
+    },
+    {
+      "year": 2016,
+      "country": "Burundi",
+      "count": 150
+    },
+    {
+      "year": 2016,
+      "country": "Cameroon",
+      "count": 135
+    },
+    {
+      "year": 2016,
+      "country": "Morocco",
+      "count": 110
+    },
+    {
+      "year": 2016,
+      "country": "Ivory Coast, Republic of",
+      "count": 105
+    },
+    {
+      "year": 2016,
+      "country": "Algeria",
+      "count": 55
+    },
+    {
+      "year": 2016,
+      "country": "Lebanon",
+      "count": 25
+    },
+    {
+      "year": 2016,
+      "country": "Tunisia",
+      "count": 15
+    },
+    {
+      "year": 2017,
+      "country": "France",
+      "count": 1545
+    },
+    {
+      "year": 2017,
+      "country": "Congo, Democratic Republic of the",
+      "count": 580
+    },
+    {
+      "year": 2017,
+      "country": "Haiti",
+      "count": 255
+    },
+    {
+      "year": 2017,
+      "country": "Cameroon",
+      "count": 185
+    },
+    {
+      "year": 2017,
+      "country": "Burundi",
+      "count": 140
+    },
+    {
+      "year": 2017,
+      "country": "Ivory Coast, Republic of",
+      "count": 115
+    },
+    {
+      "year": 2017,
+      "country": "Morocco",
+      "count": 95
+    },
+    {
+      "year": 2017,
+      "country": "Algeria",
+      "count": 70
+    },
+    {
+      "year": 2017,
+      "country": "Tunisia",
+      "count": 25
+    },
+    {
+      "year": 2017,
+      "country": "Lebanon",
+      "count": 15
+    },
+    {
+      "year": 2018,
+      "country": "France",
+      "count": 1670
+    },
+    {
+      "year": 2018,
+      "country": "Congo, Democratic Republic of the",
+      "count": 460
+    },
+    {
+      "year": 2018,
+      "country": "Cameroon",
+      "count": 295
+    },
+    {
+      "year": 2018,
+      "country": "Burundi",
+      "count": 295
+    },
+    {
+      "year": 2018,
+      "country": "Morocco",
+      "count": 260
+    },
+    {
+      "year": 2018,
+      "country": "Haiti",
+      "count": 245
+    },
+    {
+      "year": 2018,
+      "country": "Algeria",
+      "count": 175
+    },
+    {
+      "year": 2018,
+      "country": "Ivory Coast, Republic of",
+      "count": 130
+    },
+    {
+      "year": 2018,
+      "country": "Tunisia",
+      "count": 55
+    },
+    {
+      "year": 2018,
+      "country": "Lebanon",
+      "count": 25
+    },
+    {
+      "year": 2019,
+      "country": "France",
+      "count": 1800
+    },
+    {
+      "year": 2019,
+      "country": "Morocco",
+      "count": 1075
+    },
+    {
+      "year": 2019,
+      "country": "Algeria",
+      "count": 920
+    },
+    {
+      "year": 2019,
+      "country": "Congo, Democratic Republic of the",
+      "count": 605
+    },
+    {
+      "year": 2019,
+      "country": "Burundi",
+      "count": 580
+    },
+    {
+      "year": 2019,
+      "country": "Cameroon",
+      "count": 535
+    },
+    {
+      "year": 2019,
+      "country": "Tunisia",
+      "count": 455
+    },
+    {
+      "year": 2019,
+      "country": "Haiti",
+      "count": 260
+    },
+    {
+      "year": 2019,
+      "country": "Lebanon",
+      "count": 185
+    },
+    {
+      "year": 2019,
+      "country": "Ivory Coast, Republic of",
+      "count": 175
+    },
+    {
+      "year": 2020,
+      "country": "France",
+      "count": 1210
+    },
+    {
+      "year": 2020,
+      "country": "Morocco",
+      "count": 1020
+    },
+    {
+      "year": 2020,
+      "country": "Algeria",
+      "count": 750
+    },
+    {
+      "year": 2020,
+      "country": "Cameroon",
+      "count": 345
+    },
+    {
+      "year": 2020,
+      "country": "Tunisia",
+      "count": 335
+    },
+    {
+      "year": 2020,
+      "country": "Burundi",
+      "count": 335
+    },
+    {
+      "year": 2020,
+      "country": "Congo, Democratic Republic of the",
+      "count": 245
+    },
+    {
+      "year": 2020,
+      "country": "Haiti",
+      "count": 155
+    },
+    {
+      "year": 2020,
+      "country": "Ivory Coast, Republic of",
+      "count": 115
+    },
+    {
+      "year": 2020,
+      "country": "Lebanon",
+      "count": 80
+    },
+    {
+      "year": 2021,
+      "country": "France",
+      "count": 2000
+    },
+    {
+      "year": 2021,
+      "country": "Morocco",
+      "count": 575
+    },
+    {
+      "year": 2021,
+      "country": "Burundi",
+      "count": 515
+    },
+    {
+      "year": 2021,
+      "country": "Congo, Democratic Republic of the",
+      "count": 505
+    },
+    {
+      "year": 2021,
+      "country": "Cameroon",
+      "count": 395
+    },
+    {
+      "year": 2021,
+      "country": "Algeria",
+      "count": 325
+    },
+    {
+      "year": 2021,
+      "country": "Haiti",
+      "count": 285
+    },
+    {
+      "year": 2021,
+      "country": "Tunisia",
+      "count": 245
+    },
+    {
+      "year": 2021,
+      "country": "Ivory Coast, Republic of",
+      "count": 210
+    },
+    {
+      "year": 2021,
+      "country": "Lebanon",
+      "count": 130
+    },
+    {
+      "year": 2022,
+      "country": "Cameroon",
+      "count": 2535
+    },
+    {
+      "year": 2022,
+      "country": "Morocco",
+      "count": 2420
+    },
+    {
+      "year": 2022,
+      "country": "Algeria",
+      "count": 2030
+    },
+    {
+      "year": 2022,
+      "country": "France",
+      "count": 1695
+    },
+    {
+      "year": 2022,
+      "country": "Ivory Coast, Republic of",
+      "count": 1235
+    },
+    {
+      "year": 2022,
+      "country": "Tunisia",
+      "count": 845
+    },
+    {
+      "year": 2022,
+      "country": "Congo, Democratic Republic of the",
+      "count": 840
+    },
+    {
+      "year": 2022,
+      "country": "Lebanon",
+      "count": 645
+    },
+    {
+      "year": 2022,
+      "country": "Haiti",
+      "count": 560
+    },
+    {
+      "year": 2022,
+      "country": "Burundi",
+      "count": 530
+    },
+    {
+      "year": 2023,
+      "country": "Cameroon",
+      "count": 4265
+    },
+    {
+      "year": 2023,
+      "country": "Morocco",
+      "count": 2890
+    },
+    {
+      "year": 2023,
+      "country": "Algeria",
+      "count": 2235
+    },
+    {
+      "year": 2023,
+      "country": "France",
+      "count": 2180
+    },
+    {
+      "year": 2023,
+      "country": "Congo, Democratic Republic of the",
+      "count": 1230
+    },
+    {
+      "year": 2023,
+      "country": "Ivory Coast, Republic of",
+      "count": 970
+    },
+    {
+      "year": 2023,
+      "country": "Tunisia",
+      "count": 800
+    },
+    {
+      "year": 2023,
+      "country": "Haiti",
+      "count": 675
+    },
+    {
+      "year": 2023,
+      "country": "Lebanon",
+      "count": 640
+    },
+    {
+      "year": 2023,
+      "country": "Burundi",
+      "count": 390
+    },
+    {
+      "year": 2024,
+      "country": "Cameroon",
+      "count": 10405
+    },
+    {
+      "year": 2024,
+      "country": "Algeria",
+      "count": 3735
+    },
+    {
+      "year": 2024,
+      "country": "Morocco",
+      "count": 3420
+    },
+    {
+      "year": 2024,
+      "country": "Haiti",
+      "count": 2630
+    },
+    {
+      "year": 2024,
+      "country": "Ivory Coast, Republic of",
+      "count": 1610
+    },
+    {
+      "year": 2024,
+      "country": "France",
+      "count": 1605
+    },
+    {
+      "year": 2024,
+      "country": "Tunisia",
+      "count": 1055
+    },
+    {
+      "year": 2024,
+      "country": "Congo, Democratic Republic of the",
+      "count": 1015
+    },
+    {
+      "year": 2024,
+      "country": "Lebanon",
+      "count": 570
+    },
+    {
+      "year": 2024,
+      "country": "Burundi",
+      "count": 450
+    },
+    {
+      "year": 2025,
+      "country": "Cameroon",
+      "count": 11950
+    },
+    {
+      "year": 2025,
+      "country": "Algeria",
+      "count": 2700
+    },
+    {
+      "year": 2025,
+      "country": "Morocco",
+      "count": 2605
+    },
+    {
+      "year": 2025,
+      "country": "France",
+      "count": 1950
+    },
+    {
+      "year": 2025,
+      "country": "Ivory Coast, Republic of",
+      "count": 1735
+    },
+    {
+      "year": 2025,
+      "country": "Haiti",
+      "count": 1670
+    },
+    {
+      "year": 2025,
+      "country": "Congo, Democratic Republic of the",
+      "count": 1150
+    },
+    {
+      "year": 2025,
+      "country": "Tunisia",
+      "count": 825
+    },
+    {
+      "year": 2025,
+      "country": "Burundi",
+      "count": 530
+    },
+    {
+      "year": 2025,
+      "country": "Lebanon",
+      "count": 215
+    },
+    {
+      "year": 2026,
+      "country": "Cameroon",
+      "count": 2830
+    },
+    {
+      "year": 2026,
+      "country": "Algeria",
+      "count": 860
+    },
+    {
+      "year": 2026,
+      "country": "France",
+      "count": 810
+    },
+    {
+      "year": 2026,
+      "country": "Morocco",
+      "count": 685
+    },
+    {
+      "year": 2026,
+      "country": "Ivory Coast, Republic of",
+      "count": 480
+    },
+    {
+      "year": 2026,
+      "country": "Haiti",
+      "count": 340
+    },
+    {
+      "year": 2026,
+      "country": "Congo, Democratic Republic of the",
+      "count": 335
+    },
+    {
+      "year": 2026,
+      "country": "Burundi",
+      "count": 215
+    },
+    {
+      "year": 2026,
+      "country": "Tunisia",
+      "count": 215
+    },
+    {
+      "year": 2026,
+      "country": "Lebanon",
+      "count": 35
+    }
+  ],
   "note": "Top 10 countries by all-time cumulative admissions",
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-06-14T13:08:07.661825",
-    "latest_source_reference": null,
-    "stale": true,
-    "failed_sources": [
-      {
-        "dataset_key": "permanent_residents_monthly",
-        "error": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-French-speaking-PR-Citz.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684b90>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
-      }
-    ],
+    "generated_at": "2026-06-21T13:02:02.613817",
+    "latest_source_reference": "2015 to 2026",
+    "stale": false,
+    "failed_sources": [],
     "sources": [
       {
         "dataset_key": "permanent_residents_monthly",
         "source_family": "ircc",
-        "source_id": "IRCC-f7e5498e",
-        "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-06-14 13:08:07.417000",
-        "notes": "HTTPSConnectionPool(host='www.ircc.canada.ca', port=443): Max retries exceeded with url: /opendata-donneesouvertes/data/ODP-French-speaking-PR-Citz.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ircc.canada.ca', port=443) at 0x7f4ca3684b90>, 'Connection to www.ircc.canada.ca timed out. (connect timeout=300)'))"
+        "source_id": "f7e5498e-0ad8-4417-85c9-9b8aff9b9eda",
+        "resource_id": "d0640e61-9bd2-4b8c-949f-a4ba50fbebe4",
+        "reference_period": "2015 to 2026",
+        "cadence": "Monthly",
+        "status": "success",
+        "loaded_at": "2026-06-21 13:02:02.396000",
+        "notes": null
       }
     ]
   }
