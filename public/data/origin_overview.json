@@ -144,7 +144,7 @@
           "count": 45248
         },
         {
-          "country": "Mauritius",
+          "country": "Benin, Republic of",
           "count": 34150
         }
       ],
@@ -210,7 +210,7 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-06-21T13:02:02.613817",
+    "generated_at": "2026-06-28T12:13:40.351694",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -228,7 +228,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-06-21 13:02:02.610000",
+        "loaded_at": "2026-06-28 12:13:40.348000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -239,7 +239,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-06-21 13:01:58.170000",
+        "loaded_at": "2026-06-28 12:13:28.693000",
         "notes": null
       },
       {
@@ -250,7 +250,7 @@
         "reference_period": "2021-07-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-06-21 13:00:30.531000",
+        "loaded_at": "2026-06-28 12:11:35.710000",
         "notes": null
       },
       {
@@ -261,7 +261,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-06-21 13:02:02.396000",
+        "loaded_at": "2026-06-28 12:13:39.890000",
         "notes": null
       },
       {
@@ -272,7 +272,7 @@
         "reference_period": "1946-01-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-06-21 13:00:30.137000",
+        "loaded_at": "2026-06-28 12:11:34.961000",
         "notes": null
       },
       {
@@ -283,7 +283,7 @@
         "reference_period": "2021 to 2021",
         "cadence": "Census (every 5 years)",
         "status": "success",
-        "loaded_at": "2026-06-21 13:01:41.276000",
+        "loaded_at": "2026-06-28 12:13:11.301000",
         "notes": null
       },
       {
@@ -294,7 +294,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-06-21 13:01:59.300000",
+        "loaded_at": "2026-06-28 12:13:31.165000",
         "notes": null
       },
       {
@@ -305,7 +305,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-06-21 13:02:00.934000",
+        "loaded_at": "2026-06-28 12:13:38.269000",
         "notes": null
       }
     ]
