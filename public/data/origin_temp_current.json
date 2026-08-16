@@ -97,7 +97,7 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-08-09T11:21:48.190174",
+    "generated_at": "2026-08-16T11:12:20.204811",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -115,7 +115,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-08-09 11:21:48.186000",
+        "loaded_at": "2026-08-16 11:12:20.200000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -126,7 +126,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-09 11:21:41.709000",
+        "loaded_at": "2026-08-16 11:12:08.066000",
         "notes": null
       },
       {
@@ -137,7 +137,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-09 11:21:46.680000",
+        "loaded_at": "2026-08-16 11:12:18.503000",
         "notes": null
       }
     ]
