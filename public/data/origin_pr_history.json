@@ -553,59 +553,59 @@
     {
       "year": 2026,
       "country": "Cameroon",
-      "count": 3705
+      "count": 4765
     },
     {
       "year": 2026,
       "country": "Algeria",
-      "count": 1175
+      "count": 1465
     },
     {
       "year": 2026,
       "country": "France",
-      "count": 940
+      "count": 1070
     },
     {
       "year": 2026,
       "country": "Morocco",
-      "count": 855
+      "count": 1025
     },
     {
       "year": 2026,
       "country": "Ivory Coast, Republic of",
-      "count": 605
-    },
-    {
-      "year": 2026,
-      "country": "Congo, Democratic Republic of the",
-      "count": 415
+      "count": 735
     },
     {
       "year": 2026,
       "country": "Haiti",
-      "count": 410
+      "count": 480
+    },
+    {
+      "year": 2026,
+      "country": "Congo, Democratic Republic of the",
+      "count": 465
     },
     {
       "year": 2026,
       "country": "Tunisia",
-      "count": 270
+      "count": 335
     },
     {
       "year": 2026,
       "country": "Burundi",
-      "count": 260
+      "count": 315
     },
     {
       "year": 2026,
       "country": "Lebanon",
-      "count": 45
+      "count": 65
     }
   ],
   "note": "Top 10 countries by all-time cumulative admissions",
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-08-16T11:12:20.204811",
+    "generated_at": "2026-08-23T11:12:54.152304",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-16 11:12:19.749000",
+        "loaded_at": "2026-08-23 11:12:53.827000",
         "notes": null
       }
     ]

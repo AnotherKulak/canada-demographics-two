@@ -94,14 +94,14 @@
     {
       "date": "2019-01-01",
       "stream": "annual_study_permit_holders",
-      "count": 411860,
+      "count": 411855,
       "cadence": "annual",
       "source_origin": "ircc"
     },
     {
       "date": "2019-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 62885,
+      "count": 62880,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -115,7 +115,7 @@
     {
       "date": "2020-01-01",
       "stream": "annual_study_permit_holders",
-      "count": 271105,
+      "count": 271100,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -1295,7 +1295,7 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-08-16T11:12:20.204811",
+    "generated_at": "2026-08-23T11:12:54.152304",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -1313,7 +1313,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-08-16 11:12:20.200000",
+        "loaded_at": "2026-08-23 11:12:54.149000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -1324,7 +1324,7 @@
         "reference_period": "2021-07-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-08-16 11:09:56.196000",
+        "loaded_at": "2026-08-23 11:11:03.072000",
         "notes": null
       },
       {
@@ -1335,7 +1335,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-16 11:12:08.066000",
+        "loaded_at": "2026-08-23 11:12:45.322000",
         "notes": null
       },
       {
@@ -1346,7 +1346,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-16 11:12:18.503000",
+        "loaded_at": "2026-08-23 11:12:52.902000",
         "notes": null
       }
     ]
