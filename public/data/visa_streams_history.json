@@ -17,7 +17,7 @@
     {
       "date": "2015-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 16505,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -38,7 +38,7 @@
     {
       "date": "2016-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 21055,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -59,7 +59,7 @@
     {
       "date": "2017-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 38265,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -80,7 +80,7 @@
     {
       "date": "2018-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 52185,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -101,7 +101,7 @@
     {
       "date": "2019-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 62880,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -122,7 +122,7 @@
     {
       "date": "2020-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 48045,
+      "count": 0,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -1295,13 +1295,17 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-08-30T15:08:29.035128",
+    "generated_at": "2026-09-06T13:57:19.976514",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
         "error": "Missing asylum claimant XLSX resources"
+      },
+      {
+        "dataset_key": "work_permits_monthly",
+        "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ],
     "sources": [
@@ -1313,7 +1317,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-08-30 15:08:29.031000",
+        "loaded_at": "2026-09-06 13:57:19.973000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -1324,7 +1328,7 @@
         "reference_period": "2021-07-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-08-30 15:06:36.815000",
+        "loaded_at": "2026-09-06 13:50:26.847000",
         "notes": null
       },
       {
@@ -1335,19 +1339,19 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-08-30 15:08:18.753000",
+        "loaded_at": "2026-09-06 13:56:08.390000",
         "notes": null
       },
       {
         "dataset_key": "work_permits_monthly",
         "source_family": "ircc",
-        "source_id": "360024f2-17e9-4558-bfc1-3616485d65b9",
-        "resource_id": "2988617a-5568-49c2-a146-d9155babb592",
-        "reference_period": "2015 to 2026",
-        "cadence": "Monthly",
-        "status": "success",
-        "loaded_at": "2026-08-30 15:08:27.259000",
-        "notes": null
+        "source_id": "IRCC-360024f2",
+        "resource_id": null,
+        "reference_period": null,
+        "cadence": null,
+        "status": "failed",
+        "loaded_at": "2026-09-06 13:57:08.619000",
+        "notes": "HTTPSConnectionPool(host='open.canada.ca', port=443): Read timed out. (read timeout=60)"
       }
     ]
   }
