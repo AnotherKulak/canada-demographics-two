@@ -101,7 +101,7 @@
     {
       "date": "2019-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 62880,
+      "count": 62875,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -122,7 +122,7 @@
     {
       "date": "2020-01-01",
       "stream": "annual_work_permit_holders",
-      "count": 48045,
+      "count": 48040,
       "cadence": "annual",
       "source_origin": "ircc"
     },
@@ -1295,7 +1295,7 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-09-13T14:46:22.515979",
+    "generated_at": "2026-09-20T14:25:07.636344",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -1313,7 +1313,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-09-13 14:46:22.510000",
+        "loaded_at": "2026-09-20 14:25:07.632000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -1324,7 +1324,7 @@
         "reference_period": "2021-07-01 to 2026-04-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:43:54.842000",
+        "loaded_at": "2026-09-20 14:22:41.672000",
         "notes": null
       },
       {
@@ -1335,7 +1335,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:46:10.051000",
+        "loaded_at": "2026-09-20 14:24:50.160000",
         "notes": null
       },
       {
@@ -1346,7 +1346,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:46:20.920000",
+        "loaded_at": "2026-09-20 14:25:05.327000",
         "notes": null
       }
     ]

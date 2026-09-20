@@ -4,15 +4,15 @@
     "top10": [
       {
         "country": "India",
-        "count": 99040
+        "count": 98995
       },
       {
         "country": "China",
-        "count": 51585
+        "count": 51575
       },
       {
         "country": "Nigeria",
-        "count": 27640
+        "count": 27635
       },
       {
         "country": "Philippines",
@@ -20,15 +20,15 @@
       },
       {
         "country": "France",
-        "count": 13775
+        "count": 13770
       },
       {
         "country": "Vietnam",
-        "count": 10340
+        "count": 10330
       },
       {
         "country": "Iran",
-        "count": 9565
+        "count": 9555
       },
       {
         "country": "South Korea",
@@ -40,7 +40,7 @@
       },
       {
         "country": "Mexico",
-        "count": 8295
+        "count": 8285
       }
     ]
   },
@@ -49,19 +49,19 @@
     "top10": [
       {
         "country": "India",
-        "count": 28925
+        "count": 28895
       },
       {
         "country": "Haiti",
-        "count": 22205
+        "count": 22195
       },
       {
         "country": "Mexico",
-        "count": 14510
+        "count": 14475
       },
       {
         "country": "Nigeria",
-        "count": 10865
+        "count": 10850
       },
       {
         "country": "Iran",
@@ -73,11 +73,11 @@
       },
       {
         "country": "China",
-        "count": 5795
+        "count": 5790
       },
       {
         "country": "Congo, Democratic Republic of the",
-        "count": 5010
+        "count": 5005
       },
       {
         "country": "Pakistan",
@@ -97,7 +97,7 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-09-13T14:46:22.515979",
+    "generated_at": "2026-09-20T14:25:07.636344",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -115,7 +115,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-09-13 14:46:22.510000",
+        "loaded_at": "2026-09-20 14:25:07.632000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -126,7 +126,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:46:10.051000",
+        "loaded_at": "2026-09-20 14:24:50.160000",
         "notes": null
       },
       {
@@ -137,7 +137,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:46:20.920000",
+        "loaded_at": "2026-09-20 14:25:05.327000",
         "notes": null
       }
     ]

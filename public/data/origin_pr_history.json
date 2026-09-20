@@ -162,12 +162,12 @@
     },
     {
       "year": 2018,
-      "country": "Burundi",
+      "country": "Cameroon",
       "count": 295
     },
     {
       "year": 2018,
-      "country": "Cameroon",
+      "country": "Burundi",
       "count": 295
     },
     {
@@ -553,59 +553,59 @@
     {
       "year": 2026,
       "country": "Cameroon",
-      "count": 4765
+      "count": 5655
     },
     {
       "year": 2026,
       "country": "Algeria",
-      "count": 1465
+      "count": 1875
     },
     {
       "year": 2026,
       "country": "France",
-      "count": 1070
+      "count": 1285
     },
     {
       "year": 2026,
       "country": "Morocco",
-      "count": 1025
+      "count": 1230
     },
     {
       "year": 2026,
       "country": "Ivory Coast, Republic of",
-      "count": 735
+      "count": 850
     },
     {
       "year": 2026,
       "country": "Haiti",
-      "count": 480
+      "count": 580
     },
     {
       "year": 2026,
       "country": "Congo, Democratic Republic of the",
-      "count": 465
+      "count": 505
     },
     {
       "year": 2026,
       "country": "Tunisia",
-      "count": 335
+      "count": 405
     },
     {
       "year": 2026,
       "country": "Burundi",
-      "count": 315
+      "count": 375
     },
     {
       "year": 2026,
       "country": "Lebanon",
-      "count": 65
+      "count": 95
     }
   ],
   "note": "Top 10 countries by all-time cumulative admissions",
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-09-13T14:46:22.515979",
+    "generated_at": "2026-09-20T14:25:07.636344",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-13 14:46:22.066000",
+        "loaded_at": "2026-09-20 14:25:07.172000",
         "notes": null
       }
     ]
