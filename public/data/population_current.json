@@ -1,11 +1,11 @@
 {
-  "population": 41417056,
-  "ref_date": "2026-04-01",
+  "population": 41798407,
+  "ref_date": "2026-07-01",
   "source": "Statistics Canada 17-10-0009-01",
   "frequency": "Quarterly",
   "freshness": {
-    "generated_at": "2026-09-20T14:25:07.636344",
-    "latest_source_reference": "1946-01-01 to 2026-04-01",
+    "generated_at": "2026-09-27T15:27:46.161985",
+    "latest_source_reference": "1946-01-01 to 2026-07-01",
     "stale": false,
     "failed_sources": [],
     "sources": [
@@ -14,10 +14,10 @@
         "source_family": "statcan",
         "source_id": "17-10-0009-01",
         "resource_id": null,
-        "reference_period": "1946-01-01 to 2026-04-01",
+        "reference_period": "1946-01-01 to 2026-07-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-09-20 14:22:40.727000",
+        "loaded_at": "2026-09-27 15:26:31.547000",
         "notes": null
       }
     ]

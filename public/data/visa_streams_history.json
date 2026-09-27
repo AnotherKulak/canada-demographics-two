@@ -129,119 +129,119 @@
     {
       "date": "2021-07-01",
       "stream": "asylum_no_permit",
-      "count": 68316,
+      "count": 68396,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "asylum_study_permit_only",
-      "count": 1485,
+      "count": 1490,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "asylum_work_and_study",
-      "count": 4094,
+      "count": 4091,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "asylum_work_permit_only",
-      "count": 94311,
+      "count": 94262,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "permit_other",
-      "count": 51505,
+      "count": 49301,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "permit_study_only",
-      "count": 368708,
+      "count": 359363,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "permit_work_and_study",
-      "count": 164855,
+      "count": 162717,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-07-01",
       "stream": "permit_work_only",
-      "count": 608581,
+      "count": 586380,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "asylum_no_permit",
-      "count": 69008,
+      "count": 69095,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "asylum_study_permit_only",
-      "count": 1242,
+      "count": 1241,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "asylum_work_and_study",
-      "count": 3417,
+      "count": 3416,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "asylum_work_permit_only",
-      "count": 88826,
+      "count": 88778,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "permit_other",
-      "count": 55490,
+      "count": 53249,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "permit_study_only",
-      "count": 426963,
+      "count": 420005,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "permit_work_and_study",
-      "count": 162650,
+      "count": 161045,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2021-10-01",
       "stream": "permit_work_only",
-      "count": 635008,
+      "count": 612044,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "asylum_no_permit",
-      "count": 82236,
+      "count": 82321,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
@@ -255,105 +255,105 @@
     {
       "date": "2022-01-01",
       "stream": "asylum_work_and_study",
-      "count": 3206,
+      "count": 3203,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "asylum_work_permit_only",
-      "count": 74298,
+      "count": 74255,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "permit_other",
-      "count": 53585,
+      "count": 50791,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "permit_study_only",
-      "count": 446782,
+      "count": 436077,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "permit_work_and_study",
-      "count": 161101,
+      "count": 159258,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-01-01",
       "stream": "permit_work_only",
-      "count": 591133,
+      "count": 564755,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "asylum_no_permit",
-      "count": 95283,
+      "count": 95365,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "asylum_study_permit_only",
-      "count": 1802,
+      "count": 1803,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "asylum_work_and_study",
-      "count": 3015,
+      "count": 3013,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "asylum_work_permit_only",
-      "count": 66680,
+      "count": 66635,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "permit_other",
-      "count": 59362,
+      "count": 55862,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "permit_study_only",
-      "count": 450192,
+      "count": 437599,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "permit_work_and_study",
-      "count": 169053,
+      "count": 166854,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-04-01",
       "stream": "permit_work_only",
-      "count": 602403,
+      "count": 569888,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-07-01",
       "stream": "asylum_no_permit",
-      "count": 98357,
+      "count": 98454,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
@@ -374,49 +374,49 @@
     {
       "date": "2022-07-01",
       "stream": "asylum_work_permit_only",
-      "count": 75089,
+      "count": 75029,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-07-01",
       "stream": "permit_other",
-      "count": 66091,
+      "count": 63284,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-07-01",
       "stream": "permit_study_only",
-      "count": 475124,
+      "count": 463849,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-07-01",
       "stream": "permit_work_and_study",
-      "count": 185693,
+      "count": 183370,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-07-01",
       "stream": "permit_work_only",
-      "count": 681089,
+      "count": 657525,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "asylum_no_permit",
-      "count": 99020,
+      "count": 99147,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "asylum_study_permit_only",
-      "count": 1230,
+      "count": 1231,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
@@ -430,42 +430,42 @@
     {
       "date": "2022-10-01",
       "stream": "asylum_work_permit_only",
-      "count": 90049,
+      "count": 89962,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "permit_other",
-      "count": 74847,
+      "count": 72209,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "permit_study_only",
-      "count": 523728,
+      "count": 516034,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "permit_work_and_study",
-      "count": 204895,
+      "count": 202926,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2022-10-01",
       "stream": "permit_work_only",
-      "count": 803300,
+      "count": 774597,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-01-01",
       "stream": "asylum_no_permit",
-      "count": 105538,
+      "count": 105696,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
@@ -486,42 +486,42 @@
     {
       "date": "2023-01-01",
       "stream": "asylum_work_permit_only",
-      "count": 107457,
+      "count": 107339,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-01-01",
       "stream": "permit_other",
-      "count": 80765,
+      "count": 77096,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-01-01",
       "stream": "permit_study_only",
-      "count": 566201,
+      "count": 554011,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-01-01",
       "stream": "permit_work_and_study",
-      "count": 219616,
+      "count": 217164,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-01-01",
       "stream": "permit_work_only",
-      "count": 866970,
+      "count": 826041,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "asylum_no_permit",
-      "count": 108724,
+      "count": 108956,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
@@ -535,714 +535,770 @@
     {
       "date": "2023-04-01",
       "stream": "asylum_work_and_study",
-      "count": 5405,
+      "count": 5404,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "asylum_work_permit_only",
-      "count": 123198,
+      "count": 123006,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "permit_other",
-      "count": 87031,
+      "count": 82149,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "permit_study_only",
-      "count": 556154,
+      "count": 541413,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "permit_work_and_study",
-      "count": 236765,
+      "count": 233733,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-04-01",
       "stream": "permit_work_only",
-      "count": 934003,
+      "count": 878704,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "asylum_no_permit",
-      "count": 107240,
+      "count": 107568,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "asylum_study_permit_only",
-      "count": 1641,
+      "count": 1645,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "asylum_work_and_study",
-      "count": 6699,
+      "count": 6694,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "asylum_work_permit_only",
-      "count": 141803,
+      "count": 141517,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "permit_other",
-      "count": 96656,
+      "count": 92771,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "permit_study_only",
-      "count": 586812,
+      "count": 573241,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "permit_work_and_study",
-      "count": 271434,
+      "count": 268082,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-07-01",
       "stream": "permit_work_only",
-      "count": 1045810,
+      "count": 1005359,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "asylum_no_permit",
-      "count": 114931,
+      "count": 115403,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "asylum_study_permit_only",
-      "count": 2017,
+      "count": 2020,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "asylum_work_and_study",
-      "count": 7611,
+      "count": 7608,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "asylum_work_permit_only",
-      "count": 163895,
+      "count": 163459,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "permit_other",
-      "count": 110176,
+      "count": 106007,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "permit_study_only",
-      "count": 661084,
+      "count": 651040,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "permit_work_and_study",
-      "count": 296263,
+      "count": 293377,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2023-10-01",
       "stream": "permit_work_only",
-      "count": 1216177,
+      "count": 1166175,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "asylum_no_permit",
-      "count": 129253,
+      "count": 129883,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "asylum_study_permit_only",
-      "count": 2884,
+      "count": 2886,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "asylum_work_and_study",
-      "count": 9181,
+      "count": 9172,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "asylum_work_permit_only",
-      "count": 187171,
+      "count": 186570,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "permit_other",
-      "count": 126932,
+      "count": 121421,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "permit_study_only",
-      "count": 685835,
+      "count": 670422,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "permit_work_and_study",
-      "count": 320838,
+      "count": 317145,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-01-01",
       "stream": "permit_work_only",
-      "count": 1279429,
+      "count": 1212407,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "asylum_no_permit",
-      "count": 131077,
+      "count": 131929,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "asylum_study_permit_only",
-      "count": 3487,
+      "count": 3492,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "asylum_work_and_study",
-      "count": 11921,
+      "count": 11907,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "asylum_work_permit_only",
-      "count": 217020,
+      "count": 216199,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "permit_other",
-      "count": 145805,
+      "count": 138612,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "permit_study_only",
-      "count": 667848,
+      "count": 650184,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "permit_work_and_study",
-      "count": 346938,
+      "count": 342340,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-04-01",
       "stream": "permit_work_only",
-      "count": 1379319,
+      "count": 1290846,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "asylum_no_permit",
-      "count": 131116,
+      "count": 132213,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "asylum_study_permit_only",
-      "count": 2878,
+      "count": 2899,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "asylum_work_and_study",
-      "count": 15291,
+      "count": 15262,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "asylum_work_permit_only",
-      "count": 249628,
+      "count": 248544,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "permit_other",
-      "count": 151067,
+      "count": 142819,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "permit_study_only",
-      "count": 669137,
+      "count": 648667,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "permit_work_and_study",
-      "count": 373792,
+      "count": 368112,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-07-01",
       "stream": "permit_work_only",
-      "count": 1446261,
+      "count": 1341567,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "asylum_no_permit",
-      "count": 131287,
+      "count": 132638,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "asylum_study_permit_only",
-      "count": 2406,
+      "count": 2439,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "asylum_work_and_study",
-      "count": 16765,
+      "count": 16717,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "asylum_work_permit_only",
-      "count": 279181,
+      "count": 277847,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "permit_other",
-      "count": 155986,
+      "count": 146613,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "permit_study_only",
-      "count": 658942,
+      "count": 638083,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "permit_work_and_study",
-      "count": 341162,
+      "count": 335835,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2024-10-01",
       "stream": "permit_work_only",
-      "count": 1563402,
+      "count": 1434113,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "asylum_no_permit",
-      "count": 137477,
+      "count": 139087,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "asylum_study_permit_only",
-      "count": 2529,
+      "count": 2556,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "asylum_work_and_study",
-      "count": 20066,
+      "count": 20016,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "asylum_work_permit_only",
-      "count": 299848,
+      "count": 298237,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "permit_other",
-      "count": 152812,
+      "count": 142525,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "permit_study_only",
-      "count": 628810,
+      "count": 601145,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "permit_work_and_study",
-      "count": 330060,
+      "count": 323101,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-01-01",
       "stream": "permit_work_only",
-      "count": 1566527,
+      "count": 1425929,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "asylum_no_permit",
-      "count": 134788,
+      "count": 136887,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "asylum_study_permit_only",
-      "count": 2435,
+      "count": 2470,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "asylum_work_and_study",
-      "count": 23455,
+      "count": 23381,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "asylum_work_permit_only",
-      "count": 318864,
+      "count": 316777,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "permit_other",
-      "count": 149837,
+      "count": 142420,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "permit_study_only",
-      "count": 583125,
+      "count": 564267,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "permit_work_and_study",
-      "count": 331112,
+      "count": 322465,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-04-01",
       "stream": "permit_work_only",
-      "count": 1539319,
+      "count": 1417055,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "asylum_no_permit",
-      "count": 135845,
+      "count": 138673,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "asylum_study_permit_only",
-      "count": 2565,
+      "count": 2599,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "asylum_work_and_study",
-      "count": 24915,
+      "count": 24822,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "asylum_work_permit_only",
-      "count": 334118,
+      "count": 331172,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "permit_other",
-      "count": 143951,
+      "count": 138550,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "permit_study_only",
-      "count": 551100,
+      "count": 539960,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "permit_work_and_study",
-      "count": 312040,
+      "count": 301933,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-07-01",
       "stream": "permit_work_only",
-      "count": 1519682,
+      "count": 1456679,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "asylum_no_permit",
-      "count": 144662,
+      "count": 150214,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "asylum_study_permit_only",
-      "count": 2363,
+      "count": 2445,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "asylum_work_and_study",
-      "count": 23396,
+      "count": 23874,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "asylum_work_permit_only",
-      "count": 334346,
+      "count": 340300,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "permit_other",
-      "count": 136677,
+      "count": 140253,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "permit_study_only",
-      "count": 477418,
+      "count": 489606,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "permit_work_and_study",
-      "count": 244424,
+      "count": 243070,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2025-10-01",
       "stream": "permit_work_only",
-      "count": 1484451,
+      "count": 1553187,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "asylum_no_permit",
-      "count": 138080,
+      "count": 144210,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "asylum_study_permit_only",
-      "count": 2368,
+      "count": 2464,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "asylum_work_and_study",
-      "count": 23523,
+      "count": 23962,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "asylum_work_permit_only",
-      "count": 354518,
+      "count": 359519,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "permit_other",
-      "count": 127584,
+      "count": 135694,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "permit_study_only",
-      "count": 431537,
+      "count": 449789,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "permit_work_and_study",
-      "count": 223265,
+      "count": 220524,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-01-01",
       "stream": "permit_work_only",
-      "count": 1375566,
+      "count": 1526989,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "asylum_no_permit",
-      "count": 129552,
+      "count": 136241,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "asylum_study_permit_only",
-      "count": 2360,
+      "count": 2456,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "asylum_work_and_study",
-      "count": 24012,
+      "count": 24439,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "asylum_work_permit_only",
-      "count": 369555,
+      "count": 373969,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "permit_other",
-      "count": 119246,
+      "count": 129991,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "permit_study_only",
-      "count": 394220,
+      "count": 421830,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "permit_work_and_study",
-      "count": 223571,
+      "count": 222837,
       "cadence": "quarterly",
       "source_origin": "statcan"
     },
     {
       "date": "2026-04-01",
       "stream": "permit_work_only",
-      "count": 1296046,
+      "count": 1486886,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "asylum_no_permit",
+      "count": 147070,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "asylum_study_permit_only",
+      "count": 2690,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "asylum_work_and_study",
+      "count": 22650,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "asylum_work_permit_only",
+      "count": 357680,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "permit_other",
+      "count": 133533,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "permit_study_only",
+      "count": 399133,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "permit_work_and_study",
+      "count": 220770,
+      "cadence": "quarterly",
+      "source_origin": "statcan"
+    },
+    {
+      "date": "2026-07-01",
+      "stream": "permit_work_only",
+      "count": 1496248,
       "cadence": "quarterly",
       "source_origin": "statcan"
     }
@@ -1295,7 +1351,7 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-09-20T14:25:07.636344",
+    "generated_at": "2026-09-27T15:27:46.161985",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -1313,7 +1369,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-09-20 14:25:07.632000",
+        "loaded_at": "2026-09-27 15:27:46.158000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -1321,10 +1377,10 @@
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": "2021-07-01 to 2026-04-01",
+        "reference_period": "2021-07-01 to 2026-07-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-09-20 14:22:41.672000",
+        "loaded_at": "2026-09-27 15:26:32.021000",
         "notes": null
       },
       {
@@ -1335,7 +1391,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-20 14:24:50.160000",
+        "loaded_at": "2026-09-27 15:27:40.443000",
         "notes": null
       },
       {
@@ -1346,7 +1402,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-20 14:25:05.327000",
+        "loaded_at": "2026-09-27 15:27:45.265000",
         "notes": null
       }
     ]
