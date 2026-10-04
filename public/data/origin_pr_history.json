@@ -272,12 +272,12 @@
     },
     {
       "year": 2020,
-      "country": "Tunisia",
+      "country": "Burundi",
       "count": 335
     },
     {
       "year": 2020,
-      "country": "Burundi",
+      "country": "Tunisia",
       "count": 335
     },
     {
@@ -605,7 +605,7 @@
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-09-27T15:27:46.161985",
+    "generated_at": "2026-10-04T15:34:30.787837",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-09-27 15:27:45.879000",
+        "loaded_at": "2026-10-04 15:34:19.656000",
         "notes": null
       }
     ]
