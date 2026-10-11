@@ -1351,7 +1351,7 @@
   },
   "note": "Quarterly StatsCan data is used where available. Earlier years fall back to annual IRCC series and are labeled as blended history.",
   "freshness": {
-    "generated_at": "2026-10-04T15:34:30.787837",
+    "generated_at": "2026-10-11T16:29:36.416952",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
@@ -1369,7 +1369,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-10-04 15:34:30.784000",
+        "loaded_at": "2026-10-11 16:29:36.414000",
         "notes": "Missing asylum claimant XLSX resources"
       },
       {
@@ -1380,7 +1380,7 @@
         "reference_period": "2021-07-01 to 2026-07-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-10-04 15:32:44.211000",
+        "loaded_at": "2026-10-11 16:26:58.045000",
         "notes": null
       },
       {
@@ -1391,7 +1391,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-04 15:34:13.848000",
+        "loaded_at": "2026-10-11 16:29:24.143000",
         "notes": null
       },
       {
@@ -1402,7 +1402,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-04 15:34:18.693000",
+        "loaded_at": "2026-10-11 16:29:34.571000",
         "notes": null
       }
     ]
