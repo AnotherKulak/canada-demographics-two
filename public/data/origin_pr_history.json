@@ -162,12 +162,12 @@
     },
     {
       "year": 2018,
-      "country": "Burundi",
+      "country": "Cameroon",
       "count": 295
     },
     {
       "year": 2018,
-      "country": "Cameroon",
+      "country": "Burundi",
       "count": 295
     },
     {
@@ -272,12 +272,12 @@
     },
     {
       "year": 2020,
-      "country": "Tunisia",
+      "country": "Burundi",
       "count": 335
     },
     {
       "year": 2020,
-      "country": "Burundi",
+      "country": "Tunisia",
       "count": 335
     },
     {
@@ -605,7 +605,7 @@
   "source": "IRCC Permanent Residents \u2014 open.canada.ca",
   "frequency": "Annual aggregation of monthly data",
   "freshness": {
-    "generated_at": "2026-10-25T14:39:28.701330",
+    "generated_at": "2026-11-01T16:58:22.687501",
     "latest_source_reference": "2015 to 2026",
     "stale": false,
     "failed_sources": [],
@@ -618,7 +618,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:25.951000",
+        "loaded_at": "2026-11-01 16:58:22.576000",
         "notes": null
       }
     ]

@@ -4,7 +4,7 @@
   "source": "Statistics Canada 17-10-0009-01",
   "frequency": "Quarterly",
   "freshness": {
-    "generated_at": "2026-10-18T14:13:31.921898",
+    "generated_at": "2026-11-01T16:58:22.687501",
     "latest_source_reference": "1946-01-01 to 2026-07-01",
     "stale": false,
     "failed_sources": [],
@@ -17,7 +17,7 @@
         "reference_period": "1946-01-01 to 2026-07-01",
         "cadence": "Quarterly",
         "status": "success",
-        "loaded_at": "2026-10-18 14:11:47.670000",
+        "loaded_at": "2026-11-01 16:56:36.360000",
         "notes": null
       }
     ]

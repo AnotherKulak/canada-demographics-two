@@ -97,13 +97,13 @@
   "source": "IRCC open.canada.ca",
   "frequency": "Monthly",
   "freshness": {
-    "generated_at": "2026-10-25T14:39:28.701330",
+    "generated_at": "2026-11-01T16:58:22.687501",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
-        "error": "Missing asylum claimant XLSX resources"
+        "error": "429 Client Error: Too Many Requests for url: https://open.canada.ca/data/api/action/package_show?id=b6cbcf4d-f763-4924-a2fb-8cc4a06e3de4"
       }
     ],
     "sources": [
@@ -115,8 +115,8 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-10-25 14:39:28.698000",
-        "notes": "Missing asylum claimant XLSX resources"
+        "loaded_at": "2026-11-01 16:58:22.684000",
+        "notes": "429 Client Error: Too Many Requests for url: https://open.canada.ca/data/api/action/package_show?id=b6cbcf4d-f763-4924-a2fb-8cc4a06e3de4"
       },
       {
         "dataset_key": "study_permits_monthly",
@@ -126,7 +126,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:21.094000",
+        "loaded_at": "2026-11-01 16:58:17.573000",
         "notes": null
       },
       {
@@ -137,7 +137,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:25.392000",
+        "loaded_at": "2026-11-01 16:58:21.985000",
         "notes": null
       }
     ]

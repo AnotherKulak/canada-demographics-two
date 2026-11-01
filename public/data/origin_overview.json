@@ -3,29 +3,152 @@
     {
       "category": "foreign_born_total",
       "label": "Foreign-born Total",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
-      "source_period": "Naturalized None, PR 2025, Temporary 2025",
+      "total": 11995058,
+      "top10": [
+        {
+          "country": "Non-top-10 Naturalized",
+          "count": 2515662
+        },
+        {
+          "country": "Asia",
+          "count": 2202624
+        },
+        {
+          "country": "Non-top-10 Temporary Residents",
+          "count": 1110752
+        },
+        {
+          "country": "Cameroon",
+          "count": 1024429
+        },
+        {
+          "country": "India",
+          "count": 1001200
+        },
+        {
+          "country": "China",
+          "count": 601889
+        },
+        {
+          "country": "Philippines",
+          "count": 448868
+        },
+        {
+          "country": "Non-top-10 Permanent Residents",
+          "count": 303901
+        },
+        {
+          "country": "Algeria",
+          "count": 285886
+        },
+        {
+          "country": "United Kingdom",
+          "count": 284328
+        }
+      ],
+      "non_top_10": 2215519,
+      "source_period": "Naturalized 2021, PR 2025, Temporary 2025",
       "estimation_basis": "Sum of estimated naturalized, permanent resident, and temporary resident category outputs.",
       "is_estimated": true
     },
     {
       "category": "naturalized",
       "label": "Naturalized Citizens",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
-      "source_period": "None census distribution scaled to current estimated stock",
+      "total": 6724078,
+      "top10": [
+        {
+          "country": "Asia",
+          "count": 2202624
+        },
+        {
+          "country": "India",
+          "count": 387546
+        },
+        {
+          "country": "Philippines",
+          "count": 345972
+        },
+        {
+          "country": "China",
+          "count": 326596
+        },
+        {
+          "country": "United Kingdom",
+          "count": 284328
+        },
+        {
+          "country": "Hong Kong",
+          "count": 152499
+        },
+        {
+          "country": "Italy",
+          "count": 138644
+        },
+        {
+          "country": "Pakistan",
+          "count": 138222
+        },
+        {
+          "country": "Vietnam",
+          "count": 118928
+        },
+        {
+          "country": "United States",
+          "count": 113057
+        }
+      ],
+      "non_top_10": 2515662,
+      "source_period": "2021 census distribution scaled to current estimated stock",
       "estimation_basis": "Latest naturalized census distribution scaled to the current estimated naturalized stock.",
       "is_estimated": true
     },
     {
       "category": "permanent_resident",
       "label": "Permanent Residents",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
+      "total": 2491206,
+      "top10": [
+        {
+          "country": "Cameroon",
+          "count": 1024429
+        },
+        {
+          "country": "Algeria",
+          "count": 231461
+        },
+        {
+          "country": "Morocco",
+          "count": 223317
+        },
+        {
+          "country": "France",
+          "count": 167166
+        },
+        {
+          "country": "Ivory Coast, Republic of",
+          "count": 148735
+        },
+        {
+          "country": "Haiti",
+          "count": 143163
+        },
+        {
+          "country": "Congo, Democratic Republic of the",
+          "count": 98585
+        },
+        {
+          "country": "Tunisia",
+          "count": 70724
+        },
+        {
+          "country": "Burundi",
+          "count": 45435
+        },
+        {
+          "country": "Benin, Republic of",
+          "count": 34290
+        }
+      ],
+      "non_top_10": 303901,
       "source_period": "2025 IRCC annual distribution scaled to current estimated stock",
       "estimation_basis": "Latest complete IRCC permanent resident distribution scaled to the current estimated stock.",
       "is_estimated": true
@@ -33,9 +156,50 @@
     {
       "category": "temporary_resident",
       "label": "Temporary Residents",
-      "total": 0,
-      "top10": [],
-      "non_top_10": 0,
+      "total": 2779774,
+      "top10": [
+        {
+          "country": "India",
+          "count": 613654
+        },
+        {
+          "country": "China",
+          "count": 275293
+        },
+        {
+          "country": "Nigeria",
+          "count": 184641
+        },
+        {
+          "country": "Haiti",
+          "count": 118813
+        },
+        {
+          "country": "Mexico",
+          "count": 109042
+        },
+        {
+          "country": "Philippines",
+          "count": 102896
+        },
+        {
+          "country": "Iran",
+          "count": 86283
+        },
+        {
+          "country": "France",
+          "count": 66333
+        },
+        {
+          "country": "Bangladesh",
+          "count": 57642
+        },
+        {
+          "country": "Algeria",
+          "count": 54425
+        }
+      ],
+      "non_top_10": 1110752,
       "source_period": "Study 2025, work 2025, asylum n/a",
       "estimation_basis": "Combined latest study, work, and asylum country distributions scaled to the current temporary resident total.",
       "is_estimated": true
@@ -46,29 +210,13 @@
     "foreign_born_definition": "Foreign-born total on this site is naturalized citizens plus permanent residents plus temporary residents."
   },
   "freshness": {
-    "generated_at": "2026-10-25T14:39:28.701330",
+    "generated_at": "2026-11-01T16:58:22.687501",
     "latest_source_reference": "2015 to 2026",
     "stale": true,
     "failed_sources": [
       {
         "dataset_key": "asylum_claimants_monthly",
-        "error": "Missing asylum claimant XLSX resources"
-      },
-      {
-        "dataset_key": "naturalized_by_country_census",
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      },
-      {
-        "dataset_key": "npr_by_type_quarterly",
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      },
-      {
-        "dataset_key": "population_quarterly",
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      },
-      {
-        "dataset_key": "status_breakdown_census",
-        "error": "Expecting value: line 1 column 1 (char 0)"
+        "error": "429 Client Error: Too Many Requests for url: https://open.canada.ca/data/api/action/package_show?id=b6cbcf4d-f763-4924-a2fb-8cc4a06e3de4"
       }
     ],
     "sources": [
@@ -80,30 +228,30 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-10-25 14:39:28.698000",
-        "notes": "Missing asylum claimant XLSX resources"
+        "loaded_at": "2026-11-01 16:58:22.684000",
+        "notes": "429 Client Error: Too Many Requests for url: https://open.canada.ca/data/api/action/package_show?id=b6cbcf4d-f763-4924-a2fb-8cc4a06e3de4"
       },
       {
         "dataset_key": "naturalized_by_country_census",
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-10-25 14:39:17.909000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-11-01 16:58:16.088000",
+        "notes": null
       },
       {
         "dataset_key": "npr_by_type_quarterly",
         "source_family": "statcan",
         "source_id": "17-10-0121-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-10-25 14:39:17.406000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021-07-01 to 2026-07-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-11-01 16:56:36.724000",
+        "notes": null
       },
       {
         "dataset_key": "permanent_residents_monthly",
@@ -113,7 +261,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:25.951000",
+        "loaded_at": "2026-11-01 16:58:22.576000",
         "notes": null
       },
       {
@@ -121,22 +269,22 @@
         "source_family": "statcan",
         "source_id": "17-10-0009-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-10-25 14:39:17.138000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "1946-01-01 to 2026-07-01",
+        "cadence": "Quarterly",
+        "status": "success",
+        "loaded_at": "2026-11-01 16:56:36.360000",
+        "notes": null
       },
       {
         "dataset_key": "status_breakdown_census",
         "source_family": "statcan",
         "source_id": "98-10-0302-01",
         "resource_id": null,
-        "reference_period": null,
-        "cadence": null,
-        "status": "failed",
-        "loaded_at": "2026-10-25 14:39:17.656000",
-        "notes": "Expecting value: line 1 column 1 (char 0)"
+        "reference_period": "2021 to 2021",
+        "cadence": "Census (every 5 years)",
+        "status": "success",
+        "loaded_at": "2026-11-01 16:57:55.209000",
+        "notes": null
       },
       {
         "dataset_key": "study_permits_monthly",
@@ -146,7 +294,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:21.094000",
+        "loaded_at": "2026-11-01 16:58:17.573000",
         "notes": null
       },
       {
@@ -157,7 +305,7 @@
         "reference_period": "2015 to 2026",
         "cadence": "Monthly",
         "status": "success",
-        "loaded_at": "2026-10-25 14:39:25.392000",
+        "loaded_at": "2026-11-01 16:58:21.985000",
         "notes": null
       }
     ]

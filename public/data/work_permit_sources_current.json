@@ -7,7 +7,7 @@
   "frequency": "Monthly aggregated to annual",
   "note": "This component refreshes automatically when an IRCC program-level work permit resource is available.",
   "freshness": {
-    "generated_at": "2026-10-25T14:39:28.701330",
+    "generated_at": "2026-11-01T16:58:22.687501",
     "latest_source_reference": null,
     "stale": true,
     "failed_sources": [
@@ -25,7 +25,7 @@
         "reference_period": null,
         "cadence": null,
         "status": "failed",
-        "loaded_at": "2026-10-25 14:39:25.393000",
+        "loaded_at": "2026-11-01 16:58:21.987000",
         "notes": "Work permit program resource does not expose a recognizable program column"
       }
     ]
